@@ -1,0 +1,323 @@
+/******************管理员面板公共样式start*************************/
+html,
+body{
+	font-family: "微软雅黑";
+    height: 100%;
+    background-color: #e6e7e8;
+}
+.page{
+    background-color: #4E5465;
+}
+h4, .h4, h5, .h5, h6, .h6 {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+ul,li{
+    list-style: none;
+}
+.margin-bottom-10{
+    margin-bottom: 10px;
+}
+.margin-left-15{
+    margin-left: 15px;
+}
+.margin-left-per4{
+    margin-left: 4%;
+}
+.padding-left-30{
+    padding-left: 30px;
+}
+form .requires{
+    color: #ff0000;
+    margin-right: 2px;
+}
+/******************管理员面板公共样式end*************************/
+
+
+/*****************管理员面板头部样式start**************************/
+.admin-nav.navbar{
+	min-height: 52px;
+	background-color: #23262E; 
+    border-color: #23262E; 
+    margin-bottom: 0;
+}
+.admin-nav.navbar a{
+    padding-left:15px;
+}
+.logo-text{
+    margin-left: 15px;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 52px;
+	height: 52px;
+    color: #fff;
+    width: 400px;
+    text-align: left;
+}
+.hello-administrator{
+	height: 40px;
+	line-height: 40px;
+    padding-right: 15px;
+    padding-top: 5px;
+}
+.admin-nav.navbar .left-toggle{
+	display: inline-block;
+	height: 40px;
+	line-height: 52px;
+    color: #fff;
+}
+.navbar-default .navbar-nav > li > a,.J_adminInfo,.navbar-default .navbar-nav > li > a:hover{
+     color: #dedede; 
+}
+.admin-nav.navbar .menu-list{
+	line-height: 40px;
+	height: 40px;
+	padding: 0 15px;
+	display: block;
+}
+.panel.panel-info>.panel-body .table-responsive{
+    height:580px;
+}
+/*****************管理员面板头部样式end**************************/
+
+/*******************************siderbar start*********************/
+.sidebar{
+	width: 200px;
+/*    height: 100%;*/
+    padding-right: 0px !important;
+/*	min-height: 600px;*/
+    background-color: #4E5465;/*侧边灰*/  
+}
+.sidebar > li > a{
+    color: #3f444c;
+    display: block;
+    position: relative;
+    text-decoration: none;
+}
+.sidebar > li ul li a{
+    padding: 5px 0 5px 70px;
+    margin-left: -40px;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+.sidebar > li ul li a:hover{
+   background-color: #2B2E37;
+}
+.sidebar > li.active > a .fa.fa-angle-right{
+    transition: transform 0.15s ease-in 0s;
+    position: absolute;
+    right: 20px;
+    top: 12px;
+}
+.sidebar > li > ul > li > a .fa.fa-angle-right{
+    transform: rotate(0deg);
+    transition: transform 0.15s ease-in 0s;
+    position: absolute;
+    right: 20px;
+    top: 7px;
+}
+/*******************************siderbar end*********************/
+
+/*******************************holder start*********************/
+.holder{
+    font-size: 12px;
+	margin-left: 200px;
+    background-color: #f7f8fa;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+.container {
+    width: 100%;
+}
+.checkbox label, .radio label {
+    min-height: 20px;
+    padding-left: 20px;
+    margin-bottom: 0;
+    font-weight: 400;
+    cursor: pointer;
+    margin-right: 15px;
+}
+input[type="radio"], input[type="checkbox"] {
+    margin: 2px 0 0;
+    margin-top: 1px \9;
+    line-height: normal;
+    cursor: pointer;
+}
+.btn-default {
+    background-color: #fff;
+    color: #333;
+    border-radius: 0;
+    background-color: #e6e7e8;
+    border: 0;
+    font-size: 12px;
+}
+.btn-default:hover{
+    background-color: #d1d3d4;
+    border: 0;
+}
+a.label-info{
+    padding: 3px 8px;
+    background-color: #2bbce0;
+    color: #fff;
+}
+a.label-info:hover{
+    cursor: pointer;
+    background-color: #00CCFF;
+    text-decoration: none;
+}
+/*******************************holder end*********************/
+
+
+/*******************************footer start*********************/
+.footer{
+	border-top: 1px solid #d2d3d6;
+    background: #edeef0;
+    margin-left: 200px;
+    height: 30px;
+    margin-top: -30px;
+    overflow: hidden;
+    padding: 5px 15px;
+    font-size: 12px;
+}
+/*******************************footer end*********************/
+/*@media (min-width: 640px) and (max-width: 767px){
+    .header-menu + ul,
+    .header-menu + ul + ul{
+        display: none;
+    }
+    .menu-list-logo{
+        float: none !important;
+    }
+    .header-menu{
+        display: block;
+        color: #dedede;
+        height: 40px;
+        line-height: 40px;
+    }
+    .header-menu:hover,
+    .header-menu:focus{
+        color: #fff;
+        text-decoration: none;
+    }
+    .sidebar{
+        display: none;
+    }
+    .holder{
+        margin-left: 0;
+    }
+}
+@media (max-width: 640px){
+    .header-menu + ul,
+    .header-menu + ul + ul{
+        display: none;
+    }
+    .menu-list-logo{
+        float: none !important;
+    }
+    .header-menu{
+        display: block;
+        color: #dedede;
+        height: 40px;
+        line-height: 40px;
+    }
+    .header-menu:hover,
+    .header-menu:focus{
+        color: #fff;
+        text-decoration: none;
+    }
+}*/
+/********************宽度、高度的样式 start*****************************/
+.new220 {
+    width:220px;
+}
+.col-sm-offset-4-5{
+    margin-left: 45.7%;
+}
+.col-sm-1-5{
+    width: 12.5%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.w_15{
+    width: 15%;
+}
+/********************宽度、高度的样式 end*****************************/
+
+/********************其他 start*****************************/
+.necessary{
+    color: red;
+}
+/********************其他 end*****************************/
+/********************form start*****************************/
+.control-label{
+    display: block;
+    float: left;
+    height: 32px;
+    line-height: 32px;
+    margin: 0 0 5px 0;
+    padding-top: 5px;
+    font-weight: bold;
+    text-align: right;
+}
+.form-horizontal .control-label {
+    margin-bottom: 0;
+    padding-top: 0;
+    text-align: right;
+}
+.control-label .required{
+    padding-left: 2px;
+    line-height: 17px;
+    color: #E02222;
+    font-size: 12px;
+    vertical-align: middle;
+}
+.box {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    margin-left: 4%;
+    width:86%;
+    height:auto;
+    border:1px solid #e7e7eb;
+}
+.top {
+    height:44px;
+    width:100%;
+    border-bottom:1px solid #e7e7eb;
+    background: #f4f5f9;
+}
+.top-left {
+    float: left;
+    margin:10px 10px;
+}
+.top-right {
+    float: right;
+    color:#459ae9;
+    margin:10px 10px;
+}
+.top-right:hover {
+    border-bottom: 1px solid #459ae9;
+    cursor: pointer;
+}
+.addQuestion{
+    width: 79%;
+    height:35px;
+    margin-bottom: 10px;
+}
+img{
+    width: 140px;
+    height: 196px;
+}
+.margin-left{
+    margin-left: -7px !important;
+}
+.panel-question{
+    margin-left: 12px;
+}
+.jiange{
+    height: 50px;
+}
+

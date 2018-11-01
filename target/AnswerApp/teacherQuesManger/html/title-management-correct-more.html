@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>题目详情</title>
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no" />
+    <meta charset="utf-8">  
+    <link rel="stylesheet" href="../css/font-awesome.css" />
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" href="../css/common.css" />
+    <link rel="stylesheet" href="../css/title-management-add.css"> 
+    <style type="text/css">
+        .control-label{
+            padding-top: 0;
+            line-height: 20px;
+        }
+    </style> 
+</head>
+<body>
+<div class="row">
+    <div class="col-sm-12">
+        <nav class="navbar navbar-default navbar-static-top admin-nav J_admin_nav">
+            <a class="left-toggle pull-left" href="javascript:;">
+                <i class="fa fa-bars fa-lg"></i>
+            </a>
+            <span class="pull-left logo-text menu-list-logo">&nbsp;答题系统-后台</span>
+            <ul class="nav navbar-nav hello-administrator pull-right">
+                <li>
+                    <span class="menu-list J_adminInfo">你好，老师！</span>
+                </li>
+                <li>
+                    <a class="menu-list J_out" href="../login.html"><i class="fa fa-sign-out"></i>&nbsp;退出登录</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>
+<!-- 侧边栏 -->
+<ul class="nav nav-pills nav-stacked sidebar col-sm-3">
+    <li id="firstMenu2" class="active">
+        <a class="J_firstMenu" href="javascript:;"><i class="fa fa-bookmark-o"></i>&nbsp;&nbsp;&nbsp;&nbsp;<span >套题管理</span><i class="fa fa-angle-right angle-right"></i></a>
+        <ul>
+            <li><a class="J_menu" href="title-management-list.html">套题列表</a></li>
+            <li><a class="J_menu" href="title-management-addChoose.html">选择题新增</a></li>
+            <li><a class="J_menu" href="title-management-addJudge.html">判断题新增</a></li>
+            <li><a class="J_menu" href="title-management-correct.html">答题情况分析</a></li>
+        </ul>
+    </li>
+</ul>
+<!-- 内容 -->
+    <div class="page clearfix">
+        <div class="holder"> 
+            <div class="container"> 
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="panel panel-info">
+                            <div class="panel-heading">
+                                <h4>套题详情</h4>
+                            </div>
+                            <div class="panel-body">
+                              <div class="form-group col-sm-12">
+                                    <a href="title-management-correct.html" class="btn btn-success btn-radius-no J_search margin-left-15 pull-right" type="button"><i class="fa fa-reply"></i>&nbsp;返回</a>
+                                </div>
+                                <div class="form-group col-sm-8">
+                                    <div class="col-sm-5">
+                                        <label class="control-label pull-right">问题描述</label>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <textarea cols="65" rows="8" disabled class="title"></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group col-sm-8">
+                                    <div class="col-sm-5">
+                                        <label class="control-label pull-right">图片</label>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <img src="" class="J_img">
+                                    </div>
+                                </div>
+                                <div class="form-group col-sm-8 optionType">
+                                    <div class="col-sm-5">
+                                        <label class="control-label pull-right">答题形式</label>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <label class="radio-inline">
+                                            <input type="radio" name="optionsRadiosinline" class="optionsRadios J_onlyCheck" value="0" disabled/><span>单选题</span> 
+                                        </label>
+                                        <label class="radio-inline optionCss">
+                                            <input type="radio" name="optionsRadiosinline" class="optionsRadios J_textArea"  value="1" disabled/> <span>判断题</span>
+                                        </label>
+                                    </div>
+                                </div>
+                                    <div class="form-group col-sm-8 J_optionPanel">
+                                        <div class="col-sm-5">
+                                            <label class="control-label pull-right">A</label>
+                                        </div>
+                                        <div class="col-sm-7">
+                                            <input class="form-control w250 J_option J_a" type="text" name="option" value="" disabled/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-sm-8 J_optionPanel">
+                                        <div class="col-sm-5">
+                                            <label class="control-label pull-right">B</label>
+                                        </div>
+                                        <div class="col-sm-7">
+                                            <input class="form-control w250 J_option J_b" type="text" name="option" value="" disabled/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-sm-8 J_optionPanel">
+                                        <div class="col-sm-5">
+                                            <label class="control-label pull-right">C</label>
+                                        </div>
+                                        <div class="col-sm-7">
+                                            <input class="form-control w250 J_option J_c" type="text" name="option" value="" disabled/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-sm-8 J_optionPanel">
+                                        <div class="col-sm-5">
+                                            <label class="control-label pull-right">D</label>
+                                        </div>
+                                        <div class="col-sm-7">
+                                            <input class="form-control w250 J_option J_d" type="text" name="option" value="" disabled/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-sm-8 J_optionAnswer">
+                                        <div class="col-sm-5">
+                                            <label class="control-label pull-right">答案</label>
+                                        </div>
+                                        <div class="col-sm-7">
+                                           <label class="radio-inline">
+                                                <input type="radio" name="optionsAnswer1" class="J_answerOption" value="0" disabled/><span>A</span>
+                                            </label>
+                                            <label class="radio-inline optionCss">
+                                                <input type="radio" name="optionsAnswer1" class="J_answerOption " value="1" disabled/><span>B</span> 
+                                            </label>
+                                            <label class="radio-inline optionCss">
+                                                <input type="radio" name="optionsAnswer1" class="J_answerOption " value="2" disabled/><span>C</span> 
+                                            </label>
+                                            <label class="radio-inline optionCss">
+                                                <input type="radio" name="optionsAnswer1" class="J_answerOption " value="3" disabled/><span>D</span> 
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-sm-8 J_textAnswer" style="display: none">
+                                        <div class="col-sm-5">
+                                            <label class="control-label pull-right">答案</label>
+                                        </div>
+                                        <div class="col-sm-7">
+                                            <label class="radio-inline">
+                                                <input type="radio" name="optionsAnswer1" class="J_answerOption2" value="0" disabled/><span>正确</span>
+                                            </label>
+                                            <label class="radio-inline optionCss">
+                                                <input type="radio" name="optionsAnswer1" class="J_answerOption2 " value="1" disabled/><span>错误</span> 
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-sm-8">
+                                        <div class="col-sm-5">
+                                            <label class="control-label pull-right">创建时间</label>
+                                        </div>
+                                        <div class="col-sm-7">
+                                            <input type="text" class="J_time" disabled>
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-sm-8">
+                                        <div class="col-sm-5">
+                                            <label class="control-label pull-right">题目状态</label>
+                                        </div>
+                                        <div class="col-sm-7">
+                                            <input type="text" class="J_status" disabled>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="../js/jquery-3.3.1.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/title-management-correct-more.js"></script>
+</body>
+</html>

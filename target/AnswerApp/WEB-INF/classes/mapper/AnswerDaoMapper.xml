@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--命名空间应该是对应接口的包名+接口名 -->
+<mapper namespace="com.bluemsun.answerapp.dao.AnswerDao">
+   <select id="getChoiceQuesBySubordinateDao" resultType="ChoiceQues">
+       SELECT DISTINCT choiceques.* FROM choiceques,chapterandsession WHERE
+        choiceques.subordinate=chapterandsession.csId
+        AND chapterandsession.courseId=#{courseId}
+        AND chapterandsession.sessionNum=#{sessionId}
+        AND chapterandsession.chapterId=#{chapterId}
+        AND choiceques.status='1'
+   </select>
+
+    <select id="getJudgmentQuesSubordinateDao" resultType="JudgmentQues">
+        SELECT DISTINCT judgmentques.* FROM judgmentques,chapterandsession WHERE
+        judgmentques.subordinate=chapterandsession.csId
+        AND chapterandsession.courseId=#{courseId}
+        AND chapterandsession.sessionNum=#{sessionId}
+        AND chapterandsession.chapterId=#{chapterId}
+        AND judgmentques.status='1'
+    </select>
+
+    <select id="getAnswerDao" resultType="String">
+        <if test="type==0">
+           SELECT relAnswer FROM choiceques WHERE choiceQuesId=#{quesId}
+        </if>
+        <if test="type==1">
+            SELECT judgRealAnswer FROM judgmentques WHERE judgmentQuesId=#{quesId}
+        </if>
+    </select>
+
+    <insert id="saveRecordDao">
+        INSERT INTO answerrecord (stuId, judgeResult, stuAnswer, subDate, quesId, type) VALUES
+        <foreach collection="answerRecordList" separator="," item="record">
+            (#{record.stuId}, #{record.judgeResult}, #{record.stuAnswer}, #{record.subDate}, #{record.quesId}, #{record.type})
+        </foreach>
+    </insert>
+
+    <select id="getAnswerRecordDao" resultType="AnswerRecord">
+        SELECT DISTINCT answerrecord.*,user.realname as realName,user.stuNum FROM answerrecord,user WHERE type=#{type} AND quesId=#{quesId} AND user.userId=answerrecord.stuId
+    </select>
+    <!--获取开启状态的题目-->
+    <select id="getRecordSummaryDao" resultType="RecordSummary">
+        <if test="type==0">
+            SELECT DISTINCT answerrecord.quesId,answerrecord.type  FROM answerrecord,choiceques
+            WHERE choiceques.status='1' AND choiceques.userId=#{userId} AND answerrecord.quesId=choiceques.choiceQuesId
+        </if>
+        <if test="type==1">
+            SELECT DISTINCT answerrecord.quesId,answerrecord.type  FROM answerrecord,judgmentques
+            WHERE judgmentques.status='1' AND judgmentques.userId=#{userId} AND answerrecord.quesId=judgmentques.judgmentQuesId
+        </if>
+
+    </select>
+
+    <select id="getSubCountDao" resultType="int">
+        SELECT COUNT(*) FROM answerrecord WHERE quesId=#{quesId} AND type=#{type}
+    </select>
+    <select id="getSubRightDao" resultType="int">
+        SELECT COUNT(*) FROM answerrecord WHERE quesId=#{quesId} AND type=#{type} AND judgeResult='1'
+    </select>
+
+    <select id="getAllChoiceQuesDao" resultType="ChoiceQues">
+        SELECT DISTINCT choiceques.* FROM choiceques,chapterandsession WHERE
+        choiceques.subordinate=chapterandsession.csId
+        AND chapterandsession.courseId=#{courseId}
+        AND choiceques.status='1'
+    </select>
+
+    <select id="getAllJudgQuesDao" resultType="JudgmentQues">
+        SELECT DISTINCT judgmentques.* FROM judgmentques,chapterandsession WHERE
+        judgmentques.subordinate=chapterandsession.csId
+        AND chapterandsession.courseId=#{courseId}
+        AND judgmentques.status='1'
+
+    </select>
+</mapper>

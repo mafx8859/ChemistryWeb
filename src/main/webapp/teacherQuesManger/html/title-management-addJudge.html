@@ -1,0 +1,164 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>套题新增</title>
+            <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no" />
+        <meta charset="utf-8">  
+        <link rel="stylesheet" href="../css/font-awesome.css" />
+        <link rel="stylesheet" href="../css/bootstrap.css" />
+        <link rel="stylesheet" href="../css/common.css" />
+        <link rel="stylesheet" href="../css/title-management-add.css">  
+    </head>
+    <body>
+    <div class="row">
+        <div class="col-sm-12">
+            <nav class="navbar navbar-default navbar-static-top admin-nav J_admin_nav">
+                <a class="left-toggle pull-left" href="javascript:;">
+                    <i class="fa fa-bars fa-lg"></i>
+                </a>
+                <span class="pull-left logo-text menu-list-logo">&nbsp;答题系统-后台</span>
+                <ul class="nav navbar-nav hello-administrator pull-right">
+                    <li>
+                        <span class="menu-list J_adminInfo">你好，老师！</span>
+                    </li>
+                    <li>
+                        <a class="menu-list J_out" href="../login.html"><i class="fa fa-sign-out"></i>&nbsp;退出登录</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!-- 侧边栏 -->
+    <ul class="nav nav-pills nav-stacked sidebar col-sm-3">
+        <li id="firstMenu2" class="active">
+            <a class="J_firstMenu" href="javascript:;"><i class="fa fa-bookmark-o"></i>&nbsp;&nbsp;&nbsp;&nbsp;<span >套题管理</span><i class="fa fa-angle-right angle-right"></i></a>
+            <ul>
+                <li><a class="J_menu" href="title-management-list.html">套题列表</a></li>
+                <li><a class="J_menu" href="title-management-addChoose.html">选择题新增</a></li>
+                <li><a class="J_menu" href="title-management-addJudge.html">判断题新增</a></li>
+                <li><a class="J_menu" href="title-management-correct.html">答题情况分析</a></li>
+            </ul>
+        </li>
+    </ul>
+    <!-- 内容 -->
+        <div class="page clearfix">
+            <div class="holder"> 
+                <div class="container"> 
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="panel panel-info">
+                                <div class="panel-heading">
+                                    <h4>套题新增</h4>
+                                </div>
+                                <div class="panel-body col-sm-10 col-sm-offset-1 panel-major-body">
+                                    <form class="form-horizontal J_searchForm">
+                                        <div class="form-group">
+                                            <div class="col-sm-1-5">
+                                                <label class="control-label margin-left-15 pull-right">章<span class="necessary">*</span></label>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <select name="chapter" class="validator form-control zhang w250">
+                                                    <option value="">请选择</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-sm-1">
+                                                <label class="control-label margin-left-15 pull-right">节<span class="necessary">*</span></label>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <select name="section" class="validator form-control jie w250">
+                                                    <option value="">请选择</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </form>
+                                    <div class="panel panel-info box" questionNum="1">
+                                        <div class="top">
+                                            <h4 class="top-left">判断题</h4>
+                                            <span class="top-right J_retract">返回</span>
+                                        </div>
+                                        <div class="panel-body panel-question">
+                                            <form class="form-horizontal J_optionForm">
+                                                <div class="form-group">
+                                                    <label class="col-sm-2 control-label">问题描述<span class="necessary">*</span></label>
+                                                    <div class="col-sm-8">
+                                                        <textarea class="quesDescription" cols="88" rows="6" type="text" name="quesDescription"></textarea>
+                                                    </div>
+                                                </div>
+                                             <div class="form-group col-sm-12">
+                                        <div class="col-sm-2">
+                                            <label class="control-label pull-right">图片上传</label>
+                                        </div>
+                                        <div class="col-sm-10">
+                                            <input id="fileToUpload" type="file" name="file" class="file"> 
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-sm-12">
+                                        <div class="col-sm-2">
+                                        </div>
+                                        <div class="col-sm-10">
+                                            <img src="/img/calendar.jpg" id="image">
+                                        </div>
+                                    </div>
+                                                <div class="form-group panel-option J_judgeAnswer">
+                                                    <label class="col-sm-2 control-label">答案<span class="necessary">*</span></label>
+                                                    <div class="col-sm-8">
+                                                        <label class="radio-inline">
+                                                            <input type="radio" name="textAnswer" class="J_answerOnly" value="对" checked="checked" /><span>正确</span>
+                                                        </label>
+                                                        <label class="radio-inline optionCss">
+                                                            <input type="radio" name="textAnswer" class="J_answerOnly " value="错"/><span>错误</span> 
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="panel-footer">
+                                    <div class="row">
+                                        <div class="col-sm-6 col-sm-offset-4-5">
+                                            <div class="btn-toolbar">
+                                                <button class="btn btn-success J_save" type="button"><i class="fa fa-save"></i>&nbsp;提交</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 删除-->
+        <div class="modal fade" id="J_DEl" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <input type="hidden" class='hiddenDelete' value=''>
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="  modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">删除</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form action="" class="form-horizontal J_DelForm">
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label">  是否确认删除</label>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default"   data-dismiss="modal">取消</button>
+                        <button type="button" class="btn btn-primary J_popUpDel"  >确定</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="../js/jquery-3.3.1.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script src="../js/common.js"></script>
+        <script src="../js/title-management-addJudge.js"></script>
+    </body>
+    </html>

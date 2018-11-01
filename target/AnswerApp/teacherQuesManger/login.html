@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>答题系统后台管理登录</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div class="main_box">
+        <div class="content">
+            <h1>答题系统后台登录</h1>
+            <form>
+                <div class="user">
+                    <span>用户名</span>
+                    <input type="text" name="Username" id="userName" placeholder="请输入用户名" >
+                    <div id="userName-error" class="field_message">
+                        <em class="hwic_error">用户名不能为空</em>
+                    </div>
+                </div>
+                <div class="powss">
+                    <span>密码</span>
+                    <input type="password" name="password" id="password" autocomplete="off" placeholder="请输入密码">
+                    <div id="password-error" class="field_message">
+                        <em class="hwic_error">密码不能为空</em>
+                    </div>
+                </div>
+                <div class="login-btn">
+                    <div id="thesubmit" class="link-submit js-login-form-btn">登录</div>
+                </div>
+            </form>
+        </div>
+    </div>
+     <script src="js/jquery-3.3.1.js"></script>
+     <script src="js/login.js"></script>
+</body>
+</html>

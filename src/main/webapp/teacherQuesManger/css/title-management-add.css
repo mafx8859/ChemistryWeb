@@ -1,0 +1,44 @@
+
+
+textarea{
+    padding: 5px 12px;
+}
+/*input[type="radio"]{
+    margin-left: -4px !important;
+}*/
+input[type="text"]{
+    margin-left: 10px;
+}
+/*.radio-inline span{
+    margin-left: 13px;
+}*/
+/*.J_delOption{
+    line-height: 33px;
+    margin-left: -38px;
+}*/
+
+.margin-bottom-0{
+    margin-bottom: 0px;
+}
+.margin-left-1{
+    margin-left: 1px !important;
+}
+.J_photo{
+    width: 100px;
+    height: 85px;
+    /*margin-left: -110px;*/
+}
+/*#fileToUpload{
+    margin-left: -112px;
+}*/
+.optionCss{
+    margin-left:  20px !important;
+}
+.alertCss{
+    width: 79%;
+}
+
+
+
+
+/*原来*/

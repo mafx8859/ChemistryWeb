@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>答题情况分析列表</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no" />
+    <meta charset="utf-8">  
+    <link rel="stylesheet" href="../css/font-awesome.css" />
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" href="../css/common.css" />  
+</head>
+<body>
+<div class="row">
+    <div class="col-sm-12">
+        <nav class="navbar navbar-default navbar-static-top admin-nav J_admin_nav">
+            <a class="left-toggle pull-left" href="javascript:;">
+                <i class="fa fa-bars fa-lg"></i>
+            </a>
+            <span class="pull-left logo-text menu-list-logo">&nbsp;答题系统-后台</span>
+            <ul class="nav navbar-nav hello-administrator pull-right">
+                <li>
+                    <span class="menu-list J_adminInfo">你好，老师！</span>
+                </li>
+                <li>
+                    <a class="menu-list J_out" href="../login.html"><i class="fa fa-sign-out"></i>&nbsp;退出登录</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>
+<!-- 侧边栏 -->
+<ul class="nav nav-pills nav-stacked sidebar col-sm-3">
+    <li id="firstMenu2" class="active">
+        <a class="J_firstMenu" href="javascript:;"><i class="fa fa-bookmark-o"></i>&nbsp;&nbsp;&nbsp;&nbsp;<span >套题管理</span><i class="fa fa-angle-right angle-right"></i></a>
+        <ul>
+            <li><a class="J_menu" href="title-management-list.html">套题列表</a></li>
+            <li><a class="J_menu" href="title-management-addChoose.html">选择题新增</a></li>
+            <li><a class="J_menu" href="title-management-addJudge.html">判断题新增</a></li>
+            <li><a class="J_menu" href="title-management-correct.html">答题情况分析</a></li>
+        </ul>
+    </li>
+</ul>
+<!-- 内容 -->
+    <div class="page clearfix">
+        <div class="holder">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 margin-top--10">
+                        <div class="panel panel-info">
+                            <div class="panel-heading">
+                                <h4>答题情况分析列表</h4>
+                            </div>
+                            <div class="panel-body">
+                                <div class="table-responsive col-sm-12">
+                                        <table class="J_table table table-bordered">
+                                            <tbody id="J_template">
+                                            </tbody>
+                                        </table>
+                                    </div> 
+                                </div>
+                            </div>                      
+                        </div>
+                    </div>   
+                </div>
+            </div>
+    </div>
+
+    <input class="hidId" type="hidden"></input>       
+    <script src="../js/jquery-3.3.1.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/echarts.min.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/title-management-correct.js"></script>
+</body>
+</html>

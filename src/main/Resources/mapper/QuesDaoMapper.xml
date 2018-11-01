@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--命名空间应该是对应接口的包名+接口名 -->
+<mapper namespace="com.bluemsun.answerapp.dao.QuesDao">
+    <select id="getScIdDao" resultType="int">
+        SELECT csId FROM chapterandsession WHERE courseId=#{courseId} AND chapterId=#{chapterId} AND sessionNum=#{sessionId}
+    </select>
+    <insert id="addQuesDao">
+        INSERT INTO choiceques(quesDescription, optionA, optionB, optionC, optionD, relAnswer, setQuesDate, userId, subordinate) VALUE
+            (#{quesDescription},#{optionA},#{optionB},#{optionC},#{optionD},#{relAnswer},#{setQuesDate},#{userId},#{subordinate})
+    </insert>
+    <select id="getCurrentQuesId" resultType="int">
+        <if test="type==0">
+            SELECT MAX(choiceQuesId) from choiceques
+        </if>
+        <if test="type==1">
+            SELECT MAX(judgmentQuesId) from judgmentques
+        </if>
+    </select>
+    <insert id="saveImagePathToDbDao">
+        INSERT INTO quesphotos(photoName, quesId,quesType)VALUE (#{fileName},#{currentQuesId},#{type})
+    </insert>
+    <insert id="addJudgmentQuesDao">
+        INSERT INTO judgmentques(judgRealAnswer, userId, judgQuesDescription, subordinate,setQuesDate)VALUE
+        (#{judgRealAnswer}, #{userId}, #{judgQuesDescription}, #{subordinate},#{setQuesDate})
+    </insert>
+    <select id="getChoiceQuesByUserIdDao" resultType="ChoiceQues">
+        SELECT * FROM choiceques where userId=#{userId}
+    </select>
+    <select id="getJudgQuesByUserIdDao" resultType="JudgmentQues">
+        SELECT * FROM judgmentques WHERE userId=#{userId}
+    </select>
+    <select id="getChoiceQuesByUserIdAndSubordinateDao" resultType="ChoiceQues">
+        SELECT choiceques.* FROM choiceques,chapterandsession where choiceques.subordinate=chapterandsession.csId
+        AND choiceques.userId=#{userId}
+         AND chapterandsession.chapterId=#{chapterId}
+         AND chapterandsession.sessionNum=#{sessionId}
+    </select>
+
+    <select id="getJudgmentQuesByUserIdAndSubordinateDao" resultType="JudgmentQues">
+        SELECT judgmentques.* FROM judgmentques,chapterandsession where judgmentques.subordinate=chapterandsession.csId
+        AND judgmentques.userId=#{userId}
+        AND chapterandsession.chapterId=#{chapterId}
+        AND chapterandsession.sessionNum=#{sessionId}
+    </select>
+
+    <select id="getQuesImage" resultType="String">
+        SELECT photoName FROM quesphotos WHERE quesId=#{quesId} AND quesType=#{type}
+    </select>
+
+    <select id="getChoiceQuesByQuesIdAndTypeDao" resultType="ChoiceQues">
+        SELECT * FROM choiceques WHERE choiceQuesId=#{quesId}
+    </select>
+
+    <select id="getJudgmentQuesQuesByQuesIdAndTypeDao" resultType="JudgmentQues">
+        SELECT * FROM judgmentques WHERE judgmentQuesId=#{quesId}
+    </select>
+
+    <delete id="deleteChoiceQuesDao">
+        DELETE FROM choiceques WHERE userId=#{userId} AND choiceQuesId=#{quesId}
+    </delete>
+
+    <delete id="deleteJudgmentQuesDao">
+        DELETE FROM judgmentques WHERE userId=#{userId} AND judgmentQuesId=#{quesId}
+    </delete>
+
+    <select id="getChoiceStatus" resultType="String">
+        SELECT status FROM choiceques WHERE choiceQuesId=#{quesId}
+    </select>
+    <select id="getJudgmentStatus" resultType="String">
+        SELECT status FROM judgmentques WHERE judgmentQuesId=#{quesId}
+    </select>
+    <update id="updateChoiceStatus">
+        UPDATE choiceques SET status=#{status} WHERE choiceQuesId=#{quesId}
+    </update>
+    <update id="updateJudgmentStatus">
+        UPDATE judgmentques SET status=#{status} WHERE judgmentQuesId=#{quesId}
+    </update>
+
+    <select id="getChapterDao" resultType="Chapter">
+        SELECT * FROM chapter WHERE courseId=#{courseId}
+    </select>
+
+    <select id="getSessionDao" resultType="Session">
+        SELECT * FROM session WHERE chapterId=#{chapterId}
+    </select>
+</mapper>

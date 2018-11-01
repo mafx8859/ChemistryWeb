@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" name="viewport" id="viewport" />
+		<title>答题系统</title>
+		<link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.5.min.css">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.mobile-1.4.5.min.js"></script>
+		<script src="js/echarts.min.js"></script>
+		<script src="js/title-management-correct.js"></script>
+
+	</head>
+	<body>
+<!-- 答题情况分析 -->
+		<div data-role="page" id="page1">
+			<div data-role="header">
+				<h1>答题情况分析列表</h1>
+			</div>
+			<div data-role="content">
+                <div class="box1">
+                    <table>
+                        <tbody id="J_template">
+                        </tbody>
+                    </table>
+                </div> 
+            </div>
+			<div data-role="footer" data-position="fixed">
+				<div data-role="controlgroup" id="dibudaohang">
+					<a href="javascript:;" data-role="button" data-icon="refresh" data-iconpos="top" class="reload">刷新</a>
+				</div>
+			</div>
+		</div>
+		
+<!-- 学生答题情况详情 -->
+        <div data-role="page" id="page2">
+			<div data-role="header">
+				<h1>答题情况详情</h1>
+			</div>
+			<div data-role="content">
+				<div class="box1">
+                    <table>
+                        <tbody id="J_template2">
+                        </tbody>
+                    </table>
+                </div> 
+			</div>
+			<div data-role="footer" data-position="fixed">
+				<div data-role="controlgroup" id="dibudaohang">
+					<a href="#page1" data-role="button" data-icon="back" data-iconpos="top">返回列表页</a>
+				</div>
+			</div>
+		</div>
+
+<!-- 题目详情 -->
+        <div data-role="page" id="page3">
+			<div data-role="header">
+				<h1>题目详情</h1>
+			</div>
+			<div data-role="content">
+				<div class="box1">
+					<div class="form-group">
+                        <!-- <div class="col-sm-5">
+                            <label class="control-label pull-right">问题描述</label>
+                        </div> -->
+                        <div class="col-sm-7">
+                            <textarea cols="65" rows="8" disabled class="title"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <!-- <div class="col-sm-5">
+                            <label class="control-label pull-right">图片</label>
+                        </div> -->
+                        <div class="col-sm-7">
+                            <img src="" class="J_img">
+                        </div>
+                    </div>
+                        <div class="form-group J_optionPanel">
+                            <div class="miaoshu">
+                                <label class="control-label pull-right">A</label>
+                            </div>
+                            <div class="M_content">
+                                <input class="form-control w250 J_option J_a" type="text" name="option" value="" disabled/>
+                            </div>
+                        </div>
+                        <div class="form-group J_optionPanel">
+                            <div class="miaoshu">
+                                <label class="control-label pull-right">B</label>
+                            </div>
+                            <div class="M_content">
+                                <input class="form-control w250 J_option J_b" type="text" name="option" value="" disabled/>
+                            </div>
+                        </div>
+                        <div class="form-group J_optionPanel">
+                            <div class="miaoshu">
+                                <label class="control-label pull-right">C</label>
+                            </div>
+                            <div class="M_content">
+                                <input class="form-control w250 J_option J_c" type="text" name="option" value="" disabled/>
+                            </div>
+                        </div>
+                        <div class="form-group J_optionPanel">
+                            <div class="miaoshu">
+                                <label class="control-label pull-right">D</label>
+                            </div>
+                            <div class="M_content">
+                                <input class="form-control w250 J_option J_d" type="text" name="option" value="" disabled/>
+                            </div>
+                        </div>
+                        <div class="form-group J_optionAnswer">
+                            <div class="miaoshu">
+                                <label class="control-label pull-right">答案</label>
+                            </div>
+                            <div class="M_content">
+                                <input class="J_answerOption" disabled>
+                            </div>
+                        </div>
+                        <div class="form-group J_textAnswer" style="display: none">
+                            <div class="miaoshu">
+                                <label class="control-label pull-right">答案</label>
+                            </div>
+                            <div class="M_content">
+                            	<input class="J_answerOption2" disabled>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="miaoshu">
+                                <label class="control-label pull-right">时间</label>
+                            </div>
+                            <div class="M_content">
+                                <input type="text" class="J_time" disabled>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="miaoshu">
+                                <label class="control-label pull-right">状态</label>
+                            </div>
+                            <div class="M_content">
+                                <input type="text" class="J_status" disabled>
+                            </div>
+                        </div>
+                </div> 
+			</div>
+			<div data-role="footer" data-position="fixed">
+				<div data-role="controlgroup" id="dibudaohang">
+					<a href="#page1" data-role="button" data-icon="back" data-iconpos="top">返回列表页</a>
+				</div>
+			</div>
+		</div>
+		<input type="hidden" class="hidId">
+		<input type="hidden" class="hidType">		
+	</body>
+</html>

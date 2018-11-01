@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>题目编辑</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no" />
+    <meta charset="utf-8">  
+    <link rel="stylesheet" href="../css/font-awesome.css" />
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" href="../css/common.css" />  
+
+</head>
+<body>
+<div class="row">
+    <div class="col-sm-12">
+        <nav class="navbar navbar-default navbar-static-top admin-nav J_admin_nav">
+            <a class="left-toggle pull-left" href="javascript:;">
+                <i class="fa fa-bars fa-lg"></i>
+            </a>
+            <span class="pull-left logo-text menu-list-logo">&nbsp;答题系统-后台</span>
+            <ul class="nav navbar-nav hello-administrator pull-right">
+                <li>
+                    <span class="menu-list J_adminInfo">你好，老师！</span>
+                </li>
+                <li>
+                    <a class="menu-list J_out" href="../login.html"><i class="fa fa-sign-out"></i>&nbsp;退出登录</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>
+<!-- 侧边栏 -->
+<ul class="nav nav-pills nav-stacked sidebar col-sm-3">
+    <li id="firstMenu2" class="active">
+        <a class="J_firstMenu" href="javascript:;"><i class="fa fa-bookmark-o"></i>&nbsp;&nbsp;&nbsp;&nbsp;<span >套题管理</span><i class="fa fa-angle-right angle-right"></i></a>
+        <ul>
+            <li><a class="J_menu" href="title-management-list.html">套题列表</a></li>
+            <li><a class="J_menu" href="title-management-addChoose.html">选择题新增</a></li>
+            <li><a class="J_menu" href="title-management-addJudge.html">判断题新增</a></li>
+            <li><a class="J_menu" href="title-management-correct.html">答题情况分析</a></li>
+        </ul>
+    </li>
+</ul>
+<!-- 内容 -->
+    <div class="page clearfix">
+        <div class="holder"> 
+            <div class="container"> 
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="panel panel-info">
+                            <div class="panel-heading">
+                                <h4>题目编辑</h4>
+                            </div>
+                            <div class="panel-body col-sm-10 col-sm-offset-2 panel-major-body">
+                                <form class="form-horizontal J_searchForm">
+                                    <div class="form-group">
+                                        <div class="col-sm-1-5">
+                                            <label class="control-label pull-right">章：</label>
+                                        </div>
+                                        <div class="col-sm-3">
+                                           <select name="version" class="form-control J_version">
+                                                <option value="">请选择</option>
+                                                <option value="1">第一章</option>
+                                                <option value="2">第二章</option>
+                                            </select>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-sm-1-5">
+                                            <label class="control-label pull-right">节：</label>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <select name="chapter" class="form-control J_chapter">
+                                                <option value="">请选择</option>
+                                                <option value="1">第1节</option>
+                                                <option value="2">第2节</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </form>
+
+                                <div class="panel panel-info box" questionNum="1">
+                                    <div class="top">
+                                        <h4 class="top-left">第1题</h4>
+                                        <span class="top-right J_del">删除</span>
+                                        <span class="top-right J_retract">关闭此问题</span>
+                                    </div>
+                                    <div class="panel-body panel-question">
+                                        <form class="form-horizontal J_optionForm">
+                                            <div class="form-group">
+                                                <label class="col-sm-2 control-label">问题名称</label>
+                                                <div class="col-sm-8">
+                                                    <textarea class="J_questionTitle" cols="80" rows="6" type="text" name="questionTitle">123</textarea>
+                                                </div>
+                                            </div>
+                                            <div class="form-group J_imgDiv">
+                                                <div class="col-sm-2">
+                                                    <label class="control-label pull-right">题目图片-1</label>
+                                                </div>
+                                                <div class="col-sm-4 photoContent">
+                                                    <div class="photoImgCss">
+                                                        <img class="J_photo" id="photo11" src="/img/photo.jpg">
+                                                    <input type="file" name="fileToUpload" id="fileToUpload11" size="300" style="width:300px" class="J_fileToUpload  margin-top-20">
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="col-sm-2 control-label">分值</label>
+                                                <div class="col-sm-4">
+                                                    <input class="form-control w200 J_score"  autocomplete="off" name="score" value="1234">
+                                                </div>
+                                            </div>
+                                            <div class="form-group optionType">
+                                                <label class="col-sm-2 control-label" for="name">答题形式</label>
+                                                <div class="J_type col-sm-8">
+                                                    <label class="radio-inline">
+                                                        <input type="radio" name="optionsRadiosinline" class="optionsRadios J_onlyCheck" value="1" checked /><span>单选题</span> 
+                                                    </label>
+                                                    <label class="radio-inline optionCss">
+                                                        <input type="radio" name="optionsRadiosinline" class="optionsRadios J_judge"  value="1" /> <span>判断题</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group panel-option margin-bottom-0 J_optionPanel">
+                                                <div class="form-group"> 
+                                                    <label class="col-sm-2 control-label optionName">A</label>
+                                                    <div class="col-sm-4">
+                                                        <input class="new220 J_option" type="text" name="option" value="123"/>
+                                                    </div><br/>
+                                                </div>
+                                            </div>
+                                            <div class="form-group panel-option margin-bottom-0 J_optionPanel">
+                                                <div class="form-group"> 
+                                                    <label class="col-sm-2 control-label optionName">B</label>
+                                                    <div class="col-sm-4">
+                                                        <input class="new220 J_option" type="text" name="option" value="1313"/>
+                                                    </div><br/>
+                                                </div>
+                                            </div>
+                                            <div class="form-group panel-option margin-bottom-0 J_optionPanel">
+                                                <div class="form-group"> 
+                                                    <label class="col-sm-2 control-label optionName">C</label>
+                                                    <div class="col-sm-4">
+                                                        <input class="new220 J_option" type="text" name="option" value="131313"/>
+                                                    </div><br/>
+                                                </div>
+                                            </div>
+                                            <div class="form-group panel-option margin-bottom-0 J_optionPanel">
+                                                <div class="form-group"> 
+                                                    <label class="col-sm-2 control-label optionName">D</label>
+                                                    <div class="col-sm-4">
+                                                        <input class="new220 J_option" type="text" name="option" value="13131313"/>
+                                                    </div><br/>
+                                                </div>
+                                            </div>
+                                            <div class="form-group panel-option margin-bottom-0 J_optionAnswer">
+                                                <label class="col-sm-2 control-label">答案</label>
+                                                <div class="col-sm-8">
+                                                    <label class="radio-inline">
+                                                        <input type="radio" name="optionsAnswer1" class="J_answerOption" value="0" checked="checked" /><span>A</span>
+                                                    </label>
+                                                    <label class="radio-inline optionCss">
+                                                        <input type="radio" name="optionsAnswer1" class="J_answerOption " value="1"/><span>B</span> 
+                                                    </label>
+                                                    <label class="radio-inline optionCss">
+                                                        <input type="radio" name="optionsAnswer1" class="J_answerOption " value="2"/><span>C</span> 
+                                                    </label>
+                                                    <label class="radio-inline optionCss">
+                                                        <input type="radio" name="optionsAnswer1" class="J_answerOption " value="3"/><span>D</span> 
+                                                    </label>
+                                                </div>
+                                            </div>
+                                             <div class="form-group panel-option J_judgeAnswer" style="display: none">
+                                                <label class="col-sm-2 control-label">答案<span class="necessary">*</span></label>
+                                                <div class="col-sm-8">
+                                                    <!-- <textarea class="J_answerOnly J_option " type="text" cols="88" rows="6" name="textAnswer"></textarea> -->
+                                                    <label class="radio-inline">
+                                                        <input type="radio" name="textAnswer" class="J_answerOnly" value="0" checked="checked" /><span>正确</span>
+                                                    </label>
+                                                    <label class="radio-inline optionCss">
+                                                        <input type="radio" name="textAnswer" class="J_answerOnly " value="1"/><span>错误</span> 
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="form-group panel-option margin-bottom-0">
+                                                <label class="col-sm-2 control-label">解析</label>
+                                                <div class="col-sm-8">
+                                                    <textarea class="form-control J_analysisOnly J_option " type="text" cols="80" rows="6" name="analysis">dfhgdfghf </textarea>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 删除-->
+    <div class="modal fade" id="J_DEl" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <input type="hidden" class='hiddenDelete' value=''>
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="  modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">删除</h4>
+                </div>
+                <div class="modal-body">
+                    <form action="" class="form-horizontal J_DelForm">
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">  是否确认删除</label>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default"   data-dismiss="modal">取消</button>
+                    <button type="button" class="btn btn-primary J_popUpDel"  >确定</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 类别为空提醒-->
+    <div class="modal fade" id="J_leiBie" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <input type="hidden" class='hiddenDelete' value=''>
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">温馨提示</h4>
+                </div>
+                <div class="modal-body">
+                    <form action="" class="form-horizontal J_DelForm">
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">请选择类别</label>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default"   data-dismiss="modal">确定</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 收费为空提醒-->
+    <div class="modal fade" id="J_shouFei" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <input type="hidden" class='hiddenDelete' value=''>
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">温馨提示</h4>
+                </div>
+                <div class="modal-body">
+                    <form action="" class="form-horizontal J_DelForm">
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">请选择是否收费</label>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default"   data-dismiss="modal">确定</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <input class="hidId" type="hidden"></input>
+    <script src="../js/jquery-3.3.1.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/title-management-detailed-list.js"></script>
+</body>
+</html>
