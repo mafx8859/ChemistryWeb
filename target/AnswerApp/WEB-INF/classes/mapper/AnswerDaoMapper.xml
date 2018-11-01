@@ -52,6 +52,11 @@
 
     </select>
 
+    <select id="getChoiceRecordSummaryDao" resultType="ChoiceRecordSummary">
+        SELECT DISTINCT answerrecord.quesId,answerrecord.type  FROM answerrecord,choiceques
+        WHERE choiceques.status='1' AND choiceques.userId=#{userId} AND answerrecord.quesId=choiceques.choiceQuesId
+    </select>
+
     <select id="getSubCountDao" resultType="int">
         SELECT COUNT(*) FROM answerrecord WHERE quesId=#{quesId} AND type=#{type}
     </select>
@@ -71,6 +76,25 @@
         judgmentques.subordinate=chapterandsession.csId
         AND chapterandsession.courseId=#{courseId}
         AND judgmentques.status='1'
+
+    </select>
+
+    <select id="getItemCount" resultType="int">
+        SELECT count(*) FROM answerrecord WHERE quesId=#{quesId} AND type=#{type} AND
+        <choose>
+            <when test="item=='A'">
+                stuAnswer='A'
+            </when>
+            <when test="item=='B'">
+                stuAnswer='B'
+            </when>
+            <when test="item=='C'">
+                stuAnswer='C'
+            </when>
+            <when test="item=='D'">
+                stuAnswer='D'
+            </when>
+        </choose>
 
     </select>
 </mapper>

@@ -1,9 +1,6 @@
 package com.bluemsun.answerapp.dao;
 
-import com.bluemsun.answerapp.entity.AnswerRecord;
-import com.bluemsun.answerapp.entity.ChoiceQues;
-import com.bluemsun.answerapp.entity.JudgmentQues;
-import com.bluemsun.answerapp.entity.RecordSummary;
+import com.bluemsun.answerapp.entity.*;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
@@ -34,4 +31,8 @@ public interface AnswerDao {
     List<ChoiceQues> getAllChoiceQuesDao(int courseId);
 
     List<JudgmentQues> getAllJudgQuesDao(int courseId);
+
+    int getItemCount(@Param("quesId")int quesId, @Param("type") String type, @Param("item") char item);
+
+    List<ChoiceRecordSummary> getChoiceRecordSummaryDao(@Param("userId")int userId);
 }

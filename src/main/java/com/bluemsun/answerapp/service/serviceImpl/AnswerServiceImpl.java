@@ -2,16 +2,15 @@ package com.bluemsun.answerapp.service.serviceImpl;
 
 import com.bluemsun.answerapp.dao.AnswerDao;
 import com.bluemsun.answerapp.dao.QuesDao;
-import com.bluemsun.answerapp.entity.AnswerRecord;
-import com.bluemsun.answerapp.entity.ChoiceQues;
-import com.bluemsun.answerapp.entity.JudgmentQues;
-import com.bluemsun.answerapp.entity.RecordSummary;
+import com.bluemsun.answerapp.entity.*;
 import com.bluemsun.answerapp.service.AnswerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * Created by mafx on 2018/10/18.
@@ -76,10 +75,21 @@ public class AnswerServiceImpl implements AnswerService{
     }
 
     @Override
-    public List<RecordSummary> getRecordSummaryService(int userId) {
-        List<RecordSummary> recordSummariesChoice=answerDao.getRecordSummaryDao(userId,0);
+    public Map<String,Object> getRecordSummaryService(int userId) {
+        List<ChoiceRecordSummary> recordSummariesChoice=answerDao.getChoiceRecordSummaryDao(userId);
         List<RecordSummary> recordSummariesJudg=answerDao.getRecordSummaryDao(userId,1);
         List<RecordSummary> recordSummaries=new ArrayList<RecordSummary>();
+        Map<String,Object> recordMap=new HashMap<String,Object>();
+        for (ChoiceRecordSummary choiceRecordSummary:recordSummariesChoice) {
+            int countA=answerDao.getItemCount(choiceRecordSummary.getQuesId(),choiceRecordSummary.getType(),'A');
+            int countB=answerDao.getItemCount(choiceRecordSummary.getQuesId(),choiceRecordSummary.getType(),'B');
+            int countC=answerDao.getItemCount(choiceRecordSummary.getQuesId(),choiceRecordSummary.getType(),'C');
+            int countD=answerDao.getItemCount(choiceRecordSummary.getQuesId(),choiceRecordSummary.getType(),'D');
+            choiceRecordSummary.setCountA(countA);
+            choiceRecordSummary.setCountB(countB);
+            choiceRecordSummary.setCountC(countC);
+            choiceRecordSummary.setCountD(countD);
+        }
         recordSummaries.addAll(recordSummariesChoice);
         recordSummaries.addAll(recordSummariesJudg);
         for (RecordSummary record:recordSummaries) {
@@ -94,7 +104,9 @@ public class AnswerServiceImpl implements AnswerService{
             }
 
         }
-        return recordSummaries;
+        recordMap.put("choiceRecord",recordSummariesChoice);
+        recordMap.put("judgRecord",recordSummariesJudg);
+        return recordMap;
     }
 
     @Override

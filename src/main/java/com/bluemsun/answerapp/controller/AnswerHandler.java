@@ -1,7 +1,6 @@
 package com.bluemsun.answerapp.controller;
 
 import com.bluemsun.answerapp.entity.AnswerRecord;
-import com.bluemsun.answerapp.entity.RecordSummary;
 import com.bluemsun.answerapp.entity.UserBean;
 import com.bluemsun.answerapp.service.AnswerService;
 import net.sf.json.JSONObject;
@@ -49,12 +48,13 @@ public class AnswerHandler {
             user=new UserBean();
             user.setUserId(1);
         }
-        System.out.println(subDataList.get(0).toString());
         Map<String,Integer> judgQuesResult=new HashMap<String,Integer>();
         Date date=new Date();
         SimpleDateFormat format=new SimpleDateFormat("yyyy-MM-dd");
         String dateString=format.format(date);
         List<AnswerRecord> answerRecordList=new ArrayList<AnswerRecord>();
+        int correctCount=0;
+        int errorCount=0;
         for (int i = 0; i <subDataList.size() ; i++) {
             AnswerRecord answerRecord=new AnswerRecord();
             answerRecord.setSubDate(dateString);
@@ -66,10 +66,14 @@ public class AnswerHandler {
             if(stuAnswer==null||stuAnswer.equals("")){
                 //0-错误 1-正确
                 isCorrect=0;
-                judgQuesResult.put(quesId+" "+type,isCorrect);
+                errorCount++;
             }else {
                 isCorrect=answerService.isCorrectService(type,quesId,stuAnswer);
-                judgQuesResult.put(quesId+" "+type,isCorrect);
+                if(isCorrect==0){
+                    errorCount++;
+                }else {
+                    correctCount++;
+                }
             }
             answerRecord.setJudgeResult(isCorrect+"");
             answerRecord.setQuesId(quesId);
@@ -78,8 +82,10 @@ public class AnswerHandler {
             answerRecord.setType(type);
             answerRecordList.add(answerRecord);
         }
-        System.out.println(answerRecordList.get(0));
+        //将记录存入数据库
         answerService.saveRecord(answerRecordList);
+        judgQuesResult.put("errorCount",errorCount);
+        judgQuesResult.put("correctCount",correctCount);
         return judgQuesResult;
     }
     /**查找当前开启的题目的做题记录*/
@@ -98,14 +104,14 @@ public class AnswerHandler {
     /**生成某一道题的结果摘要*/
     @RequestMapping(value = "/teacher/getRecordSummary",method = RequestMethod.GET)
     @ResponseBody
-    public List<RecordSummary> getRecordSummary(HttpServletRequest request){
+    public Map<String,Object> getRecordSummary(HttpServletRequest request){
         UserBean user=(UserBean) request.getSession().getAttribute("user");
         //测试
         if(user==null){
             user=new UserBean();
             user.setUserId(2);
         }
-        List<RecordSummary> recordSummaries=answerService.getRecordSummaryService(user.getUserId());
+        Map<String,Object> recordSummaries=answerService.getRecordSummaryService(user.getUserId());
         return recordSummaries;
     }
 

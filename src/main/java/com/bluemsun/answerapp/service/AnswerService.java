@@ -1,10 +1,10 @@
 package com.bluemsun.answerapp.service;
 
 import com.bluemsun.answerapp.entity.AnswerRecord;
-import com.bluemsun.answerapp.entity.RecordSummary;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * Created by mafx on 2018/10/18.
@@ -20,7 +20,7 @@ public interface AnswerService {
 
     List<AnswerRecord> getAnswerRecordService(int quesId, int type);
 
-    List<RecordSummary> getRecordSummaryService(int userId);
+    Map<String,Object> getRecordSummaryService(int userId);
 
     List<Object> getAllOpenQues(int courseId);
 }
