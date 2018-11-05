@@ -30,7 +30,8 @@ public class QuesHandler {
 
     @RequestMapping(value = "/teacher/addChoiceQues",method = RequestMethod.POST)
     @ResponseBody
-    public String addChoiceQues(@RequestParam("questionImage")CommonsMultipartFile[] questionImage, ChoiceQues choiceQues, @RequestParam("chapterId")int chapterId, @RequestParam("sessionId")int sessionId, HttpServletRequest request){
+    public String addChoiceQues(ChoiceQues choiceQues, @RequestParam("chapterId")int chapterId, @RequestParam("sessionId")int sessionId, HttpServletRequest request){
+        //public String addChoiceQues(@RequestParam("questionImage")CommonsMultipartFile[] questionImage, ChoiceQues choiceQues, @RequestParam("chapterId")int chapterId, @RequestParam("sessionId")int sessionId, HttpServletRequest request){
         UserBean user=(UserBean) request.getSession().getAttribute("user");
         //测试
         if(user==null){
@@ -45,16 +46,17 @@ public class QuesHandler {
         choiceQues.setSetQuesDate(formatter.format(date));
         choiceQues.setUserId(user.getUserId());
         int currentQuesId=quesService.addQuesService(choiceQues);
-        boolean imageIsUpSuccesss=imageProcess(questionImage,request,currentQuesId,0);
-        if(imageIsUpSuccesss){
+        //boolean imageIsUpSuccesss=imageProcess(questionImage,request,currentQuesId,0);
+        //if(imageIsUpSuccesss){
             return "{\"status\":\"1\"}";
-        }
+        //}
 
-        return "{\"status\":\"0\"}";
+        //return "{\"status\":\"0\"}";
     }
     @RequestMapping(value = "/teacher/addJudgQues",method = RequestMethod.POST)
     @ResponseBody
-    public String addJudgQues(@RequestParam("questionImage")CommonsMultipartFile[] questionImage, JudgmentQues judgmentQues, @RequestParam("chapterId")int chapterId, @RequestParam("sessionId")int sessionId, HttpServletRequest request){
+    public String addJudgQues(JudgmentQues judgmentQues, @RequestParam("chapterId")int chapterId, @RequestParam("sessionId")int sessionId, HttpServletRequest request){
+        //public String addJudgQues(@RequestParam("questionImage")CommonsMultipartFile[] questionImage, JudgmentQues judgmentQues, @RequestParam("chapterId")int chapterId, @RequestParam("sessionId")int sessionId, HttpServletRequest request){
         UserBean user=(UserBean) request.getSession().getAttribute("user");
         //测试
         if(user==null){
@@ -69,12 +71,12 @@ public class QuesHandler {
         judgmentQues.setSetQuesDate(formatter.format(date));
         judgmentQues.setUserId(user.getUserId());
         int currentQuesId=quesService.addJudgmentQuesService(judgmentQues);
-        boolean imageIsUpSuccesss=imageProcess(questionImage,request,currentQuesId,1);
-        if(imageIsUpSuccesss){
+        //boolean imageIsUpSuccesss=imageProcess(questionImage,request,currentQuesId,1);
+        //if(imageIsUpSuccesss){
             return "{\"status\":\"1\"}";
-        }
+        //}
 
-        return "{\"status\":\"0\"}";
+        //return "{\"status\":\"0\"}";
     }
     private boolean saveFile(MultipartFile file, String path){
         if(!file.isEmpty()){

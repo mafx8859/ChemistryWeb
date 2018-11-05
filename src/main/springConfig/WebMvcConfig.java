@@ -14,6 +14,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 //启用springmvc
 @EnableWebMvc
 @ComponentScan("com.bluemsun.answerapp.controller")
+//加载包含web组件的bean
 public class WebMvcConfig extends WebMvcConfigurerAdapter{
     /**
      * 配置视图解析器.
