@@ -43,14 +43,14 @@ $(".zhang").change(function(){
                     $('#J_judge').empty();
                           $.each(rs, function(index, item){
                           if(item.type==0){
-                             str1 = '<tr class="jiange"><tr>\
+                            if(item.status==1){
+                                str1 += '<tr class="jiange"><tr>\
                                     <td class="w_15" style="height: 80px;line-height:80px;">题目</td>\
                                     <td colspan="2">'+ item.quesDescription +'</td>\
                                   </tr>\
                                   <tr>\
                                     <td>A</td>\
                                     <td>'+ item.optionA +'</td>\
-                                    <td rowspan="7" style="height: 80px;"><img  id="editImg" src="imageUpload/'+ item.photoList +'"></td>\
                                   </tr>\
                                   <tr>\
                                     <td>B</td>\
@@ -66,7 +66,7 @@ $(".zhang").change(function(){
                                   </tr>\
                                   <tr>\
                                     <td>正确答案</td>\
-                                    <td>'+ item.realAnswer +'</td>\
+                                    <td>'+ item.relAnswer +'</td>\
                                   </tr>\
                                   <tr>\
                                     <td>出题时间</td>\
@@ -81,12 +81,52 @@ $(".zhang").change(function(){
                                 </td>\
                                   </tr>\
                               </tr>'
+                            }else{
+                                str1 += '<tr class="jiange"><tr>\
+                                    <td class="w_15" style="height: 80px;line-height:80px;">题目</td>\
+                                    <td colspan="2">'+ item.quesDescription +'</td>\
+                                  </tr>\
+                                  <tr>\
+                                    <td>A</td>\
+                                    <td>'+ item.optionA +'</td>\
+                                  </tr>\
+                                  <tr>\
+                                    <td>B</td>\
+                                    <td>'+ item.optionB +'</td>\
+                                  </tr>\
+                                  <tr>\
+                                    <td>C</td>\
+                                    <td>'+ item.optionC +'</td>\
+                                  </tr>\
+                                  <tr>\
+                                    <td>D</td>\
+                                    <td>'+ item.optionD +'</td>\
+                                  </tr>\
+                                  <tr>\
+                                    <td>正确答案</td>\
+                                    <td>'+ item.relAnswer +'</td>\
+                                  </tr>\
+                                  <tr>\
+                                    <td>出题时间</td>\
+                                    <td>'+ item.setQuesDate +'</td>\
+                                  </tr>\
+                                  <tr>\
+                                  <td>操作</td>\
+                                  <td data-choiceQuesId="'+ item.choiceQuesId +'" data-type="'+ item.type +'">\
+                                    <a href="title-management-detailed-list.html#?id='+item.id+'" class="label-info J_edit"><i class="fa fa-pencil"></i>&nbsp;编辑/详情</a>\
+                                    <a href="javascript:;" class="label-info J_del"><i class="fa fa-trash-o"></i>&nbsp;删除</a>\
+                                    <a href="javascript:;" class="label-info J_open"><i class="fa fa-check"></i>&nbsp;开启此题</a>\
+                                </td>\
+                                  </tr>\
+                              </tr>'
+                            }
+                             
                           }else{
-                            str2 = '<tr class="jiange">\
+                            if(item.status==1){
+                                str2 += '<tr class="jiange">\
                                   <tr>\
                                     <td class="w_15" style="height: 80px;line-height:80px">题目</td>\
                                     <td colspan="2" style="height: 80px;">'+ item.judgQuesDescription +'</td>\
-                                    <td rowspan="5" style="height: 80px;"><img  id="editImg" src="'+ item.photoList +'"></td>\
                                   </tr>\
                                   <tr>\
                                     <td>正确答案</td>\
@@ -105,13 +145,35 @@ $(".zhang").change(function(){
                                 </td>\
                                   </tr>\
                               </tr>'
+                            }else{
+                                  str2 += '<tr class="jiange">\
+                                  <tr>\
+                                    <td class="w_15" style="height: 80px;line-height:80px">题目</td>\
+                                    <td colspan="2" style="height: 80px;">'+ item.judgQuesDescription +'</td>\
+                                  </tr>\
+                                  <tr>\
+                                    <td>正确答案</td>\
+                                    <td>'+ item.judgRealAnswer +'</td>\
+                                  </tr>\
+                                  <tr>\
+                                    <td>出题时间</td>\
+                                    <td>'+ item.setQuesDate +'</td>\
+                                  </tr>\
+                                  <tr>\
+                                  <td>操作</td>\
+                                  <td data-judgmentQuesId="'+ item.judgmentQuesId +'" data-type="'+ item.type +'">\
+                                    <a href="title-management-detailed-list.html#?id='+item.id+'" class="label-info J_edit"><i class="fa fa-pencil"></i>&nbsp;编辑/详情</a>\
+                                    <a href="javascript:;" class="label-info J_del"><i class="fa fa-trash-o"></i>&nbsp;删除</a>\
+                                    <a href="javascript:;" class="label-info J_close"><i class="fa fa-close"></i>&nbsp;关闭此题</a>\
+                                </td>\
+                                  </tr>\
+                              </tr>'
+                            }
+                                                                       
                           }                       
-                           
-
-                                            
-                            $('#J_choose').append(str1);
-                            $('#J_judge').append(str2);
                         });
+                    $('#J_choose').append(str1);
+                    $('#J_judge').append(str2);
                 },
                 error: function (message) {
                     alert("请求发送失败。")
@@ -150,7 +212,6 @@ $(".zhang").change(function(){
                                   <tr>\
                                     <td>A</td>\
                                     <td>'+ item.optionA +'</td>\
-                                    <td rowspan="7" style="height: 80px;"><img  id="editImg" src="'+ item.photoList +'"></td>\
                                   </tr>\
                                   <tr>\
                                     <td>B</td>\
@@ -166,7 +227,7 @@ $(".zhang").change(function(){
                                   </tr>\
                                   <tr>\
                                     <td>正确答案</td>\
-                                    <td>'+ item.realAnswer +'</td>\
+                                    <td>'+ item.relAnswer +'</td>\
                                   </tr>\
                                   <tr>\
                                     <td>出题时间</td>\
@@ -186,7 +247,6 @@ $(".zhang").change(function(){
                                   <tr>\
                                     <td class="w_15" style="height: 80px;line-height:80px">题目</td>\
                                     <td colspan="2" style="height: 80px;">'+ item.judgQuesDescription +'</td>\
-                                    <td rowspan="5" style="height: 80px;"><img  id="editImg" src="'+ item.photoList +'"></td>\
                                   </tr>\
                                   <tr>\
                                     <td>正确答案</td>\
@@ -206,12 +266,9 @@ $(".zhang").change(function(){
                                   </tr>\
                               </tr>'
                           }                       
-                           
-
-                                            
-                            $('#J_choose').append(str1);
-                            $('#J_judge').append(str2);
                         });
+                    $('#J_choose').append(str1);
+                    $('#J_judge').append(str2);
                 },
                 error: function (message) {
                     alert("请求发送失败。")

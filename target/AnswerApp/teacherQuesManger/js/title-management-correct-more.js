@@ -44,14 +44,15 @@ function getQueryString(name) {
                              realA.find('.J_answerOption:eq(3)').prop('checked',true);
                          }
                          $(".optionType").siblings(".J_textAnswer").css("display","none");
-                                       $(".title").val(rs.quesDescription);
-                                       $(".J_a").val(rs.optionA);
-                                       $(".J_b").val(rs.optionB);
-                                       $(".J_c").val(rs.optionC);
-                                       $(".J_d").val(rs.optionD);
+                                        $(".title").html(rs.quesDescription);
+                                       //$(".title").html("Hello <b>world!</b>");
+                                       $(".J_a").html(rs.optionA);
+                                       $(".J_b").html(rs.optionB);
+                                       $(".J_c").html(rs.optionC);
+                                       $(".J_d").html(rs.optionD);
                                        $(".J_status").val(status);
                                        $(".J_time").val(rs.setQuesDate);
-                                       $(".J_img").attr('src',rs.photoList);
+                                       // $(".J_img").attr('src',rs.photoList);
 
                 }else{    
                     $(".J_textArea").prop('checked',true);
@@ -68,7 +69,7 @@ function getQueryString(name) {
                                        $(".title").val(rs.judgQuesDescription);
                                        $(".J_status").val(status);
                                        $(".J_time").val(rs.setQuesDate);
-                                       $(".J_img").attr('src',rs.photoList);
+                                       // $(".J_img").attr('src',rs.photoList);
                 }
 
             },

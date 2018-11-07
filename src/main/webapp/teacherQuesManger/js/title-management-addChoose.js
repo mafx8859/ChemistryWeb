@@ -6,6 +6,20 @@ $(".zhang").change(function(){
     jieAjax();
 })
 
+// 富文本编辑器wangeditor
+        var E = window.wangEditor;
+        var editor1 = new E('#div1');
+        editor1.create();
+
+        var editorA = new E('#optionA');
+        editorA.create();
+        var editorB = new E('#optionB');
+        editorB.create();
+        var editorC = new E('#optionC');
+        editorC.create();
+        var editorD = new E('#optionD');
+        editorD.create();
+
     /**
      * 加载章列表
      */
@@ -59,72 +73,36 @@ $(".zhang").change(function(){
         });
     }
 
- //图片上传
-        var image='';
-        function selectImage(file, id){
-            if(!file.files|| !file.files[0]){
-                return;
-            }
-            var reader =new FileReader();
-            reader.onload=function(evt){
-                // document.getElementsById(id).src = evt.target.result;
-                $("#"+id).attr("src",evt.target.result);
-                image=evt.target.result;
-            }
-            reader.readAsDataURL(file.files[0]);
-        }
-// 对上传的图片预览
-
-$("#fileToUpload").change(function(){
-    selectImage($("#fileToUpload")[0],'image')
-})
-
-
-// --------------------- 限制图片上传格式
-       function filterFileImg(id){
-        var
-            filepath = $("#"+id+"").val(),
-            extStart = filepath.lastIndexOf("."),
-            ext = filepath.substring(extStart, filepath.length).toUpperCase();            
-        if (ext != ".JPEG" && ext != ".JPG" && ext != ".PNG") {
-            alert("文件格式不正确");
-            $("#"+id+"").val("");
-            return false;
-        }
-        return true;
-    }
-
-
-
 // 发送表单内容给后台
         function imageAjax(){
-        // console.log($("#fileToUpload")[0].files[0]);
         var 
-            formData = new FormData(),
             zhang = $('.zhang').val(),
             jie= $(".jie").val(),
-            quesDescription = $(".quesDescription").val(),
-            optionA = $(".optionA").val(),
-            optionB = $(".optionB").val(),
-            optionC = $(".optionC").val(),
-            optionD = $(".optionD").val(),
+            // quesDescription = $(".quesDescription").val(),
+            quesDescription =editor1.txt.html(),
+            optionA =editorA.txt.html(),
+            optionB =editorB.txt.html(),
+            optionC =editorC.txt.html(),
+            optionD =editorD.txt.html(),
             realAnswer =  $('.J_optionAnswer input[name="optionsAnswer"]:checked ').val();
-            // fileToUpload
-        formData.append("questionImage",$("#fileToUpload")[0].files[0]);
-        formData.append("chapterId",zhang);
-        formData.append("sessionId",jie);
-        formData.append("quesDescription",quesDescription);
-        formData.append("optionA",optionA);
-        formData.append("optionB",optionB);
-        formData.append("optionC",optionC);
-        formData.append("optionD",optionD);
-        formData.append("relAnswer",realAnswer);
+            console.log(quesDescription);
+            console.log(realAnswer);
+        var data={
+                chapterId:zhang,
+                sessionId:jie,
+                quesDescription:quesDescription,
+                optionA:optionA,
+                optionB:optionB,
+                optionC:optionC,
+                optionD:optionD,
+                relAnswer:realAnswer
+            };
         $.ajax({
             type:"post",
             url: "http://47.93.197.5/ques/teacher/addChoiceQues",
-            contentType: false,
-            data: formData,     //JSON.stringify
-            processData: false,
+            contentType: "application/x-www-form-urlencoded; charset=utf-8",
+            data: data,  
+            dataType: "json",
             success: function (rs) {
                 alert('添加成功');
                 window.location.href = "../html/title-management-list.html"; 
@@ -139,9 +117,9 @@ $("#fileToUpload").change(function(){
 
     //向后台提交验证
 $(".J_save").click(function() { 
-    if(filterFileImg('fileToUpload')){
+    // if(filterFileImg('fileToUpload')){
            imageAjax(); 
-     }       
+     // }       
 })
 
 

@@ -39,7 +39,7 @@ $(function(){
 				  			$("#password").val("")
 				  		}
 				  		else{
-				  			window.location.href = "../login.html";
+				  			window.location.href = "html/title-management-list.html";
 				  		}		
 				  	},
 				  	error:function(msg){

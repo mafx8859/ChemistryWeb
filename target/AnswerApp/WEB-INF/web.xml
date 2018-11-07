@@ -3,7 +3,16 @@
  "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
 <web-app>
+
   <display-name>Archetype Created Web Application</display-name>
+  <filter>
+    <filter-name>SafeLoginFilter</filter-name>
+    <filter-class>com.bluemsun.answerapp.filter.SafeLoginFilter</filter-class>
+  </filter>
+  <filter>
+    <filter-name>SafeLoginAjaxReqFilter</filter-name>
+    <filter-class>com.bluemsun.answerapp.filter.SafeLoginAjaxReqFilter</filter-class>
+  </filter>
   <filter>
     <filter-name>characterEncodingFilter</filter-name>
     <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
@@ -17,7 +26,29 @@
     </init-param>
   </filter>
   <filter-mapping>
+    <filter-name>SafeLoginFilter</filter-name>
+    <url-pattern>/teacherMobile/demo1.html</url-pattern>
+  </filter-mapping>
+  <filter-mapping>
+    <filter-name>SafeLoginFilter</filter-name>
+    <url-pattern>/teacherQuesManger/html/*</url-pattern>
+  </filter-mapping>
+  <filter-mapping>
+    <filter-name>SafeLoginAjaxReqFilter</filter-name>
+    <url-pattern>/answer/*</url-pattern>
+  </filter-mapping>
+  <filter-mapping>
+    <filter-name>SafeLoginAjaxReqFilter</filter-name>
+    <url-pattern>/ques/*</url-pattern>
+  </filter-mapping>
+  <filter-mapping>
+    <filter-name>SafeLoginAjaxReqFilter</filter-name>
+    <url-pattern>/course/*</url-pattern>
+  </filter-mapping>
+  <filter-mapping>
     <filter-name>characterEncodingFilter</filter-name>
     <url-pattern>/*</url-pattern>
   </filter-mapping>
+
+
 </web-app>
