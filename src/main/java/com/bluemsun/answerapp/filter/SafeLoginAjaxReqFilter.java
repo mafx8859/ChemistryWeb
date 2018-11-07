@@ -20,11 +20,17 @@ public class SafeLoginAjaxReqFilter implements Filter {
         HttpServletRequest request=(HttpServletRequest) servletRequest;
         HttpServletResponse response=(HttpServletResponse)servletResponse;
         Object session=request.getSession().getAttribute("user");
-        String url=request.getRequestURI();
-        String tempStr=url.substring(url.indexOf("/",1)+1,url.indexOf("/",url.indexOf("/",1)+1));
         if(session!=null){
             filterChain.doFilter(servletRequest,servletResponse);
         }else {
+            String url=request.getRequestURI();
+            String tempStr=null;
+            try {
+                tempStr = url.substring(url.indexOf("/", 1) + 1, url.indexOf("/", url.indexOf("/", 1) + 1));
+            }catch (Exception e){
+                request.getRequestDispatcher("/error.html").forward(request, response);
+                return;
+            }
             if (tempStr.equals("teacher")) {
                 request.getRequestDispatcher("/error.html").forward(request, response);
                 return;
