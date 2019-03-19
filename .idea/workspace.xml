@@ -7,9 +7,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb5bea77-7a5e-4700-8939-58a1f9f9be98" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/springConfig/Interceptor/SingleLoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/app.46323c1031fe6e3231ee.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/app.46323c1031fe6e3231ee.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AnswerApp/WEB-INF/classes/Interceptor/SingleLoginInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AnswerApp/static/css/app.7dad06abc4cf4d356cb20c96520b592f.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AnswerApp/static/js/app.46323c1031fe6e3231ee.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AnswerApp/static/js/app.46323c1031fe6e3231ee.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Interceptor/SingleLoginInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f3ba7b3a-5c34-471a-b480-743a5a7bebad.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f3ba7b3a-5c34-471a-b480-743a5a7bebad.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bluemsun/answerapp/controller/LoginReginsterHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bluemsun/answerapp/controller/LoginReginsterHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/springConfig/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/springConfig/ApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/springConfig/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/springConfig/WebMvcConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/error.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.04c10aa09176e4a70c6a69960fd717d5.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.04c10aa09176e4a70c6a69960fd717d5.css.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.07044d1462c2a4fe5ed0d641e76c3e19.css" beforeDir="false" />
@@ -34,7 +46,7 @@
       <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.1ee1f75d8b7b66a1f7c8262d2e378a67.css.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.221b6b880fb042ff39381fe278f18b3f.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.221b6b880fb042ff39381fe278f18b3f.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.22d8411060bef18d356fe559dd0cc5bb.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.22d8411060bef18d356fe559dd0cc5bb.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/AnswerApp/static/css/app.7dad06abc4cf4d356cb20c96520b592f.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.22d8411060bef18d356fe559dd0cc5bb.css.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.2fc0c6fe26c67185e315f20f103cd8e2.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.2fc0c6fe26c67185e315f20f103cd8e2.css.map" beforeDir="false" />
@@ -80,6 +92,8 @@
       <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.848b76293612aac0ec85a2cf4f98147d.css.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.8c263e8b85b3d231d036131bde516961.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.8c263e8b85b3d231d036131bde516961.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.8e01ee621b9b639880fa246d92c32d9a.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/AnswerApp/static/css/app.8e01ee621b9b639880fa246d92c32d9a.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.8e01ee621b9b639880fa246d92c32d9a.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/target/AnswerApp/static/css/app.8e01ee621b9b639880fa246d92c32d9a.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.9948c615e4a7ea7de7aea583c601e115.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.9948c615e4a7ea7de7aea583c601e115.css.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.99b279cd4e81d1d42a4ff942f28f3160.css" beforeDir="false" />
@@ -118,6 +132,8 @@
       <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.bec439b9c5b90fd304317dff20326002.css.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.c04571298ad3d0ecc9befe5ba81520ae.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.c04571298ad3d0ecc9befe5ba81520ae.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.c31631ef370161e5ac9fe11a4701b058.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/AnswerApp/static/css/app.c31631ef370161e5ac9fe11a4701b058.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.c31631ef370161e5ac9fe11a4701b058.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/target/AnswerApp/static/css/app.c31631ef370161e5ac9fe11a4701b058.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.c378d11b692e89accc1414d2384ed8ca.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.c378d11b692e89accc1414d2384ed8ca.css.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.c46a320cbc12a397e31099f6adffca5c.css" beforeDir="false" />
@@ -146,6 +162,8 @@
       <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.eedebfe77a9f50e795c4102470ebb2f9.css.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.003707f173eeae5d9645.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.003707f173eeae5d9645.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.009eb454a034717938c2.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/AnswerApp/static/js/app.009eb454a034717938c2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.009eb454a034717938c2.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/target/AnswerApp/static/js/app.009eb454a034717938c2.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.01ea4307d57fc62a44ae.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.01ea4307d57fc62a44ae.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.02f6c8a4a90a4f02956c.js" beforeDir="false" />
@@ -240,8 +258,12 @@
       <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.ac2b9e8cd697d9f51570.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.ad1232cd55663294fd10.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.ad1232cd55663294fd10.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.b120f5a9738c1882e970.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/AnswerApp/static/js/app.b120f5a9738c1882e970.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.b120f5a9738c1882e970.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/target/AnswerApp/static/js/app.b120f5a9738c1882e970.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.b3e34966c29888e7700e.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.b3e34966c29888e7700e.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.b8f706d71caf07728706.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/AnswerApp/static/js/app.b8f706d71caf07728706.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.b8f706d71caf07728706.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/target/AnswerApp/static/js/app.b8f706d71caf07728706.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.bbb891b6f5f8ca6aa594.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.bbb891b6f5f8ca6aa594.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.bf9d0a3dff90bb19219e.js" beforeDir="false" />
@@ -274,11 +296,32 @@
       <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.f88380cd44c02fd994f8.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.ffa241238713d155dec1.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.ffa241238713d155dec1.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/manifest.2ae2e69a05c33dfc65f8.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/vendor.f5118578f651d24463a9.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/vendor.f5118578f651d24463a9.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/teacherMobile/js/title-management-correct.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/teacherMobile/js/title-management-correct.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/title-management-addChoose.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/title-management-addChoose.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/title-management-addJudge.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/title-management-addJudge.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/title-management-correct-detailed.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/title-management-correct-detailed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/title-management-correct-more.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/title-management-correct-more.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/title-management-correct.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/title-management-correct.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/title-management-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/title-management-list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AnswerApp/WEB-INF/classes/ApplicationConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/AnswerApp/WEB-INF/classes/ApplicationConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AnswerApp/WEB-INF/classes/WebMvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/AnswerApp/WEB-INF/classes/WebMvcConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AnswerApp/WEB-INF/classes/com/bluemsun/answerapp/controller/LoginReginsterHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/AnswerApp/WEB-INF/classes/com/bluemsun/answerapp/controller/LoginReginsterHandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/AnswerApp/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/AnswerApp/error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AnswerApp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/AnswerApp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AnswerApp/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/target/AnswerApp/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AnswerApp/teacherMobile/js/title-management-correct.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/AnswerApp/teacherMobile/js/title-management-correct.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AnswerApp/teacherQuesManger/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/AnswerApp/teacherQuesManger/js/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AnswerApp/teacherQuesManger/js/title-management-addChoose.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/AnswerApp/teacherQuesManger/js/title-management-addChoose.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AnswerApp/teacherQuesManger/js/title-management-addJudge.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/AnswerApp/teacherQuesManger/js/title-management-addJudge.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AnswerApp/teacherQuesManger/js/title-management-correct-detailed.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/AnswerApp/teacherQuesManger/js/title-management-correct-detailed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AnswerApp/teacherQuesManger/js/title-management-correct-more.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/AnswerApp/teacherQuesManger/js/title-management-correct-more.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AnswerApp/teacherQuesManger/js/title-management-correct.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/AnswerApp/teacherQuesManger/js/title-management-correct.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AnswerApp/teacherQuesManger/js/title-management-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/AnswerApp/teacherQuesManger/js/title-management-list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ApplicationConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ApplicationConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WebMvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WebMvcConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bluemsun/answerapp/controller/LoginReginsterHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bluemsun/answerapp/controller/LoginReginsterHandler.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -379,46 +422,52 @@
     <session id="1649733378">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="11" />
+          <entry key="project.open.time.107" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.245" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.49" value="1" />
           <entry key="project.open.time.65" value="1" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.9" value="1" />
           <entry key="project.open.time.91" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.94" value="1" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="1" />
-          <entry key="html" value="6" />
-          <entry key="java" value="13" />
-          <entry key="js" value="2" />
+          <entry key="html" value="12" />
+          <entry key="java" value="23" />
+          <entry key="js" value="41" />
+          <entry key="txt" value="1" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="1" />
-          <entry key="HTML" value="6" />
-          <entry key="JAVA" value="13" />
-          <entry key="JavaScript" value="2" />
+          <entry key="HTML" value="12" />
+          <entry key="JAVA" value="23" />
+          <entry key="JavaScript" value="41" />
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="73" />
-          <entry key="java" value="471" />
+          <entry key="java" value="949" />
           <entry key="xml" value="143" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="73" />
-          <entry key="JAVA" value="471" />
+          <entry key="JAVA" value="949" />
           <entry key="XML" value="143" />
         </counts>
       </usages-collector>
@@ -431,8 +480,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -442,14 +491,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/Resources/c3p0-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/Resources/mybatisConfig.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bluemsun/answerapp/controller/TestController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bluemsun/answerapp/entity/PhotosBean.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bluemsun/answerapp/entity/ChoiceQues.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bluemsun/answerapp/entity/JudgmentQues.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bluemsun/answerapp/entity/UserBean.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bluemsun/answerapp/entity/Chapter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bluemsun/answerapp/entity/Session.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/springConfig/WebAppInitializer.java" />
@@ -469,15 +510,12 @@
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/bluemsun/answerapp/entity/AnswerRecord.java" />
         <option value="$PROJECT_DIR$/src/main/springConfig/Interceptor/ProcessInterceptor.java" />
-        <option value="$PROJECT_DIR$/src/main/springConfig/ApplicationConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/teacherMobile/js/title-management-correct.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/pc-teacher/title-management/title-management-addChoose.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/pc-teacher/title-management/title-management-addJudge.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/pc-teacher/title-management/title-management-correct.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/pc-teacher/title-management/title-management-correct-detailed.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/pc-teacher/title-management/title-management-list.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/bluemsun/answerapp/service/QuesService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bluemsun/answerapp/controller/LoginReginsterHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bluemsun/answerapp/service/serviceImpl/QuesServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/Resources/mapper/QuesDaoMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/bluemsun/answerapp/dao/QuesDao.java" />
@@ -487,12 +525,23 @@
         <option value="$PROJECT_DIR$/src/main/java/com/bluemsun/answerapp/service/serviceImpl/AnswerServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bluemsun/answerapp/service/AnswerService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bluemsun/answerapp/controller/AnswerHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/springConfig/WebMvcConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bluemsun/answerapp/controller/QuesHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bluemsun/answerapp/filter/SafeLoginFilter.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/bluemsun/answerapp/filter/SafeLoginAjaxReqFilter.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/error.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/teacherMobile/js/title-management-correct.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/login.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/title-management-addChoose.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/title-management-addJudge.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/title-management-correct.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/title-management-correct-detailed.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/title-management-correct-more.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/title-management-list.js" />
+        <option value="$PROJECT_DIR$/src/main/springConfig/ApplicationConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/springConfig/Interceptor/SingleLoginInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/springConfig/WebMvcConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bluemsun/answerapp/controller/LoginReginsterHandler.java" />
       </list>
     </option>
   </component>
@@ -544,6 +593,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -556,7 +606,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -564,7 +613,7 @@
     <property name="SearchEverywhereHistoryKey" value="set b&#9;ACTION&#9;Images.SetBackgroundImage&#10;set back&#9;PSI&#9;JAVA://java.awt.Component#setBackground" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541672379547" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552998086064" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -934,17 +983,32 @@
       <workItem from="1541586582497" duration="613000" />
       <workItem from="1541644175850" duration="2367000" />
       <workItem from="1541665906857" duration="192000" />
-      <workItem from="1541666306090" duration="1239000" />
+      <workItem from="1541666306090" duration="2809000" />
+      <workItem from="1543801479169" duration="2517000" />
+      <workItem from="1544773031805" duration="2346000" />
+      <workItem from="1544784764701" duration="454000" />
+      <workItem from="1545306546748" duration="36000" />
+      <workItem from="1552994467974" duration="2874000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182745000" />
+    <option name="totallyTimeSpent" value="192542000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09974093" />
+      <window_info id="Alibaba Cloud Explorer" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2746114" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -953,16 +1017,17 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Nl-Palette" order="7" />
       <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Alibaba Cloud View" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26086956" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.48550725" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289855" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3286517" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.6101449" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.8043478" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32753623" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3286517" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
@@ -991,55 +1056,11 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/springConfig/Interceptor/ProcessInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/app.592516f249b1d39f475a.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/app.592516f249b1d39f475a.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/app.52e2b2a6b2b575377db8.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/app.54749cf06cf126b8c5f9.js" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.0.RELEASE/spring-webmvc-4.3.0.RELEASE-sources.jar!/org/springframework/web/servlet/config/annotation/InterceptorRegistration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="65" column="35" selection-start-line="65" selection-start-column="35" selection-end-line="65" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/bf9f07fe/f3ba7b3a-5c34-471a-b480-743a5a7bebad/answerapp_db.user" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/app.eddd3703989484488c57.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/tool/jquery/jquery-3.3.1.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/teacherMobile/js/jquery.mobile-1.4.5.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1022">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/pc-teacher/title-management/title-management-addChoose.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/pc-teacher/title-management/title-management-addJudge.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/pc-teacher/title-management/title-management-correct.js" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/pc-teacher/title-management/title-management-correct-detailed.js" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/pc-teacher/title-management/title-management-detailed-list.js" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/tool/wangEditor.min.js" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/pc-teacher/title-management/title-management-list.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/teacherMobile/js/title-management-correct.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/login.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Resources/mapper/QuesDaoMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
@@ -1124,36 +1145,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/springConfig/ApplicationConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/springConfig/WebAppInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bluemsun/answerapp/service/serviceImpl/AnswerServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
           <caret line="85" column="12" lean-forward="true" selection-start-line="85" selection-start-column="12" selection-end-line="85" selection-end-column="12" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Resources/记录.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/teacherMobile/js/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/teacherQuesManger/html/title-management-edit.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -1164,20 +1161,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/teacherMobile/css/index.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/springConfig/WebMvcConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-189">
-          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bluemsun/answerapp/controller/LoginReginsterHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
-        </state>
-      </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1214,17 +1197,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bluemsun/answerapp/filter/SafeLoginFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/app.003707f173eeae5d9645.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/app.0cac279591017fa111ab.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/teacherMobile/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/error.html">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/teacherMobile/js/echarts.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        <state relative-caret-position="-803">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1235,22 +1219,150 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bluemsun/answerapp/filter/SafeLoginAjaxReqFilter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/error.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+        <state relative-caret-position="232">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/app.003707f173eeae5d9645.js">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bluemsun/answerapp/filter/SafeLoginAjaxReqFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        <state relative-caret-position="667">
+          <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bluemsun/answerapp/filter/SafeLoginFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/title-management-detailed-list.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/teacherQuesManger/login.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/teacherMobile/js/title-management-correct.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7888">
+          <caret line="272" column="33" lean-forward="true" selection-start-line="272" selection-start-column="33" selection-end-line="272" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-78">
+          <caret line="32" column="30" lean-forward="true" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/title-management-addChoose.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2746">
+          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/title-management-correct.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2949">
+          <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/title-management-correct-detailed.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-948">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/title-management-list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11254">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/title-management-correct-more.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1104">
+          <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/springConfig/ApplicationConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="41" column="52" lean-forward="true" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/springConfig/Interceptor/ProcessInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-136">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/springConfig/WebAppInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bluemsun/answerapp/entity/UserBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/springConfig/WebMvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/springConfig/Interceptor/SingleLoginInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="24" column="50" lean-forward="true" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Resources/记录.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/title-management-addJudge.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="89" column="26" lean-forward="true" selection-start-line="89" selection-start-column="26" selection-end-line="89" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bluemsun/answerapp/controller/LoginReginsterHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="30" column="18" lean-forward="true" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

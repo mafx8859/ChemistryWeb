@@ -19,7 +19,7 @@ $(".zhang").change(function(){
         $.ajax({
             type: 'get',
             async: false,
-            url: 'http://47.93.197.5/ques/getChapter',
+            url: 'http://188.131.204.169/ques/getChapter',
             contentType: "application/x-www-form-urlencoded; charset=utf-8",
             data: '',
             dataType: "json",
@@ -45,7 +45,7 @@ $(".zhang").change(function(){
         var chapterId = $(".zhang").val();
         $.ajax({
             type: 'get',
-            url: 'http://47.93.197.5/ques/getSession',
+            url: 'http://188.131.204.169/ques/getSession',
             contentType: "application/x-www-form-urlencoded; charset=utf-8",
             data: {chapterId:chapterId},
             dataType: "json",
@@ -83,7 +83,7 @@ $(".zhang").change(function(){
             };
         $.ajax({
             type:"post",
-            url: "http://47.93.197.5/ques/teacher/addJudgQues",
+            url: "http://188.131.204.169/ques/teacher/addJudgQues",
             contentType: "application/x-www-form-urlencoded; charset=utf-8",
             data: data,  
             dataType: "json",

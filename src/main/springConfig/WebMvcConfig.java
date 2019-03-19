@@ -1,9 +1,7 @@
+import Interceptor.SingleLoginInterceptor;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.web.servlet.config.annotation.CorsRegistry;
-import org.springframework.web.servlet.config.annotation.DefaultServletHandlerConfigurer;
-import org.springframework.web.servlet.config.annotation.EnableWebMvc;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
+import org.springframework.web.servlet.config.annotation.*;
 
 /**
  * Created by mafx on 2018/10/9.
@@ -46,13 +44,12 @@ public class WebMvcConfig extends WebMvcConfigurerAdapter{
                 .maxAge(3600)
                 .allowCredentials(true);
     }
-    /*@Override
+    @Override
     public void addInterceptors(InterceptorRegistry registry) {
-        InterceptorRegistration addInterceptor = registry.addInterceptor(new ProcessInterceptor());
-        addInterceptor.excludePathPatterns("/ques","/loginReginster","/course","/answer");
-        addInterceptor.addPathPatterns("/**");
+        InterceptorRegistration addInterceptor = registry.addInterceptor(new SingleLoginInterceptor());
+        addInterceptor.addPathPatterns("/loginReginster/login","/loginReginster/teacher/login");
         super.addInterceptors(registry);
 
-    }*/
+    }
 
 }

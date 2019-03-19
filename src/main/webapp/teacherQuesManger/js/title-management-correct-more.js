@@ -18,7 +18,7 @@ function getQueryString(name) {
             }
         $.ajax({
             type: 'get',
-            url:'http://47.93.197.5/ques/teacher/getQuesByQuesIdAndType',
+            url:'http://188.131.204.169/ques/teacher/getQuesByQuesIdAndType',
             contentType: "application/x-www-form-urlencoded; charset=utf-8",
             data: data,  
             dataType: "json",

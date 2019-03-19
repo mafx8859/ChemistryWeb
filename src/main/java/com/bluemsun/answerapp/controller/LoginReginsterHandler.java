@@ -9,7 +9,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import javax.servlet.ServletContext;
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -34,8 +36,12 @@ public class LoginReginsterHandler {
     @ResponseBody
     public Map<String,Integer> login(HttpServletRequest request, @RequestParam("username") String username, @RequestParam("password")String pwd){
         UserBean user=userService.getUserByPwdAndUsername(username,pwd);
+        ServletContext application=request.getServletContext();
+        HashMap<String, HttpSession> sessionMap=(HashMap<String, HttpSession>)application.getAttribute("sessionMap");
         if (user!=null){
-            request.getSession().setAttribute("user",user);
+            HttpSession userSession=request.getSession();
+            userSession.setAttribute("user",user);
+            sessionMap.put(username,userSession);
             Map<String,Integer> result=new HashMap<String,Integer>();
             result.put("status",1);
             result.put("level",user.getLevel());
@@ -51,8 +57,12 @@ public class LoginReginsterHandler {
     @ResponseBody
     public Map<String,Integer> teacherLogin(HttpServletRequest request, @RequestParam("username") String username, @RequestParam("password")String pwd) {
         UserBean user = userService.getUserByPwdAndUsername(username, pwd);
+        ServletContext application=request.getServletContext();
+        HashMap<String, HttpSession> sessionMap=(HashMap<String, HttpSession>)application.getAttribute("sessionMap");
         if(user!=null&&user.getLevel()==1){
-            request.getSession().setAttribute("user",user);
+            HttpSession userSession=request.getSession();
+            userSession.setAttribute("user",user);
+            sessionMap.put(username,userSession);
             Map<String,Integer> result=new HashMap<String,Integer>();
             result.put("status",1);
             return result;

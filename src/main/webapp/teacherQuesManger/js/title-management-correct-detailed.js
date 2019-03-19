@@ -26,7 +26,7 @@ $(function(){
             }
         $.ajax({
                 type:'get',
-                url:'http://47.93.197.5/answer/teacher/getAnswerRecord',
+                url:'http://188.131.204.169/answer/teacher/getAnswerRecord',
                 contentType: "application/x-www-form-urlencoded; charset=utf-8",
                 data:data,  
                 dataType: "json",

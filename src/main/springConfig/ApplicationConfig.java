@@ -39,9 +39,16 @@ public class ApplicationConfig {
         try {
             comboPooledDataSource.setJdbcUrl("jdbc:mysql://localhost:3306/answerapp_db");
             comboPooledDataSource.setDriverClass("com.mysql.jdbc.Driver");
+            comboPooledDataSource.setMinPoolSize(5);
+            comboPooledDataSource.setAcquireIncrement(5);
+            comboPooledDataSource.setInitialPoolSize(2);
+            comboPooledDataSource.setAcquireRetryDelay(400);
+            comboPooledDataSource.setPreferredTestQuery("select 1");
+            comboPooledDataSource.setTestConnectionOnCheckout(true);
+            comboPooledDataSource.setTestConnectionOnCheckin(true);
             comboPooledDataSource.setUser("root");
-            comboPooledDataSource.setPassword("root");
-            comboPooledDataSource.setInitialPoolSize(10);
+            comboPooledDataSource.setPassword("sunchem");
+
         } catch (PropertyVetoException e) {
             e.printStackTrace();
         }

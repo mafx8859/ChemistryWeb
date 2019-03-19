@@ -5,7 +5,7 @@ $(function(){
             var str2 = "";
         $.ajax({
                 type:'get',
-                url:'http://47.93.197.5/answer/teacher/getRecordSummary',
+                url:'http://188.131.204.169/answer/teacher/getRecordSummary',
                 contentType: "application/x-www-form-urlencoded; charset=utf-8",
                 data: { },  
                 dataType: "json",
