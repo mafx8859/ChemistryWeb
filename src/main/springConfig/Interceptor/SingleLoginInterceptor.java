@@ -23,6 +23,7 @@ public class SingleLoginInterceptor extends HandlerInterceptorAdapter {
         String username=request.getParameter("username");
         if(sessionMap.containsKey(username)){
             sessionMap.get(username).invalidate();
+            sessionMap.remove(username);
         }
 
         return true;

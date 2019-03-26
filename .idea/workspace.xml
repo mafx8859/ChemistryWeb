@@ -7,321 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb5bea77-7a5e-4700-8939-58a1f9f9be98" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/springConfig/Interceptor/SingleLoginInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/app.46323c1031fe6e3231ee.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/app.46323c1031fe6e3231ee.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/AnswerApp/WEB-INF/classes/Interceptor/SingleLoginInterceptor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/AnswerApp/static/css/app.7dad06abc4cf4d356cb20c96520b592f.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/AnswerApp/static/js/app.46323c1031fe6e3231ee.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/AnswerApp/static/js/app.46323c1031fe6e3231ee.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Interceptor/SingleLoginInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f3ba7b3a-5c34-471a-b480-743a5a7bebad.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f3ba7b3a-5c34-471a-b480-743a5a7bebad.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bluemsun/answerapp/controller/LoginReginsterHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bluemsun/answerapp/controller/LoginReginsterHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/springConfig/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/springConfig/ApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/springConfig/Interceptor/SingleLoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/springConfig/Interceptor/SingleLoginInterceptor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/springConfig/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/springConfig/WebMvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/error.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.04c10aa09176e4a70c6a69960fd717d5.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.04c10aa09176e4a70c6a69960fd717d5.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.07044d1462c2a4fe5ed0d641e76c3e19.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.07044d1462c2a4fe5ed0d641e76c3e19.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.0933498932fd702645658f824e78265e.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.0933498932fd702645658f824e78265e.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.0a90833ac67e7eceb878a460969e8d91.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.0a90833ac67e7eceb878a460969e8d91.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.0d4ea3ab197915988fc12bae4e9d81d2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.0d4ea3ab197915988fc12bae4e9d81d2.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.0d6596dcc1630e2d7f5cf9eef2e61a1e.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.0d6596dcc1630e2d7f5cf9eef2e61a1e.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.128b0c6ff14ad69ab3f9c2cb899af82e.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.128b0c6ff14ad69ab3f9c2cb899af82e.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.1499a8041c0d341ab7ff129c2894aafc.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.1499a8041c0d341ab7ff129c2894aafc.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.187945c1922cc16fce7031a8e9f7fe6e.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.187945c1922cc16fce7031a8e9f7fe6e.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.1b79fd47007ac23032f071fa2281e50b.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.1b79fd47007ac23032f071fa2281e50b.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.1ee1f75d8b7b66a1f7c8262d2e378a67.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.1ee1f75d8b7b66a1f7c8262d2e378a67.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.221b6b880fb042ff39381fe278f18b3f.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.221b6b880fb042ff39381fe278f18b3f.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.22d8411060bef18d356fe559dd0cc5bb.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/AnswerApp/static/css/app.7dad06abc4cf4d356cb20c96520b592f.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.22d8411060bef18d356fe559dd0cc5bb.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.2fc0c6fe26c67185e315f20f103cd8e2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.2fc0c6fe26c67185e315f20f103cd8e2.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.31eb52a7687f51a6d81ca11e444d0171.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.31eb52a7687f51a6d81ca11e444d0171.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.33eaa999a8bcfddc54b9c079a30a0994.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.33eaa999a8bcfddc54b9c079a30a0994.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.3429e5f9e4bb972d88a44085728cb910.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.3429e5f9e4bb972d88a44085728cb910.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.35c79bc73fafa6a6d2e5197a978d3aa9.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.35c79bc73fafa6a6d2e5197a978d3aa9.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.3c325384e6f5be8aae08ff3928ba7a5d.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.3c325384e6f5be8aae08ff3928ba7a5d.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.4cfa42189c9f2162c7964584e69ff095.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.4cfa42189c9f2162c7964584e69ff095.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.539de76abf5845bfb258af00e1b56e4d.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.539de76abf5845bfb258af00e1b56e4d.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.548212d9a125cde4f4d610cfb9a4a400.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.548212d9a125cde4f4d610cfb9a4a400.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.59d61cf8f259ee031c39695a4554213d.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.59d61cf8f259ee031c39695a4554213d.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.5be0ced4e5097c218349b3986245818a.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.5be0ced4e5097c218349b3986245818a.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.5fdcd124e2d43054fabbcac96d8e9ad4.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.5fdcd124e2d43054fabbcac96d8e9ad4.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.60504ba88e3c4b32f24ad341f9bfa93e.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.60504ba88e3c4b32f24ad341f9bfa93e.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.61edaaca5eaa559bcc58f87e0a9cddc9.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.61edaaca5eaa559bcc58f87e0a9cddc9.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.645f7a86de67def197e218fafe190d76.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.645f7a86de67def197e218fafe190d76.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.6e91db041ec9a63ff946c15e4bee2aa0.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.6e91db041ec9a63ff946c15e4bee2aa0.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.71870db531cb31cab67a831972791356.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.71870db531cb31cab67a831972791356.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.761acb520e3d3fb2969b7f4e5e063c2e.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.761acb520e3d3fb2969b7f4e5e063c2e.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.79f98d87f8d2c2af95982a64f6891094.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.79f98d87f8d2c2af95982a64f6891094.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.81bb90b919e854c94613eebc2a156dd8.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.81bb90b919e854c94613eebc2a156dd8.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.848b76293612aac0ec85a2cf4f98147d.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.848b76293612aac0ec85a2cf4f98147d.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.8c263e8b85b3d231d036131bde516961.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.8c263e8b85b3d231d036131bde516961.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.8e01ee621b9b639880fa246d92c32d9a.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/AnswerApp/static/css/app.8e01ee621b9b639880fa246d92c32d9a.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.8e01ee621b9b639880fa246d92c32d9a.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/target/AnswerApp/static/css/app.8e01ee621b9b639880fa246d92c32d9a.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.9948c615e4a7ea7de7aea583c601e115.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.9948c615e4a7ea7de7aea583c601e115.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.99b279cd4e81d1d42a4ff942f28f3160.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.99b279cd4e81d1d42a4ff942f28f3160.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.a19d5c9b11bfb998011a1368e8a84b5e.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.a19d5c9b11bfb998011a1368e8a84b5e.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.a22ef4d93f0c3a8210e66dbaefc0dfea.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.a22ef4d93f0c3a8210e66dbaefc0dfea.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.a2668ccace4a4b0a4de6520f51c278b5.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.a2668ccace4a4b0a4de6520f51c278b5.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.a26c47267cd8f3c627a5b939c603eef6.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.a26c47267cd8f3c627a5b939c603eef6.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.a6e0a4127bacedc814f1e113955649cb.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.a6e0a4127bacedc814f1e113955649cb.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.aa989b6f5b9e285417a5c22600f88b03.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.aa989b6f5b9e285417a5c22600f88b03.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.ad7f679b794ffc1f79d3acf87fd8767f.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.ad7f679b794ffc1f79d3acf87fd8767f.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.b00ef07086c44518bbcee2b0aea25cdf.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.b00ef07086c44518bbcee2b0aea25cdf.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.b257a632625cd6d96c293a53992357d0.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.b257a632625cd6d96c293a53992357d0.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.b33baa8ebcb88289ad879e89caff60ef.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.b33baa8ebcb88289ad879e89caff60ef.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.b8dfab5e61715f1186684d9e93633f38.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.b8dfab5e61715f1186684d9e93633f38.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.ba1e947ce7ac5581d77f77307483d59b.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.ba1e947ce7ac5581d77f77307483d59b.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.bbc0033d362cc5372bf7cae0d2537cd7.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.bbc0033d362cc5372bf7cae0d2537cd7.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.bc2709941e24b06cf8ee8bfb72bf957c.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.bc2709941e24b06cf8ee8bfb72bf957c.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.bd00197bcf2ecf2fd588c7d625a60e76.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.bd00197bcf2ecf2fd588c7d625a60e76.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.bec439b9c5b90fd304317dff20326002.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.bec439b9c5b90fd304317dff20326002.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.c04571298ad3d0ecc9befe5ba81520ae.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.c04571298ad3d0ecc9befe5ba81520ae.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.c31631ef370161e5ac9fe11a4701b058.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/AnswerApp/static/css/app.c31631ef370161e5ac9fe11a4701b058.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.c31631ef370161e5ac9fe11a4701b058.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/target/AnswerApp/static/css/app.c31631ef370161e5ac9fe11a4701b058.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.c378d11b692e89accc1414d2384ed8ca.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.c378d11b692e89accc1414d2384ed8ca.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.c46a320cbc12a397e31099f6adffca5c.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.c46a320cbc12a397e31099f6adffca5c.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.cd8f41a33d93ee6d33a670620451f549.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.cd8f41a33d93ee6d33a670620451f549.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.ce9b8e791e3b260511572fe1c7e66767.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.ce9b8e791e3b260511572fe1c7e66767.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.cf826fdcaba3e3c3b069f09798678b35.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.cf826fdcaba3e3c3b069f09798678b35.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.cfbc481c4e152ab4ad79ad4097cce149.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.cfbc481c4e152ab4ad79ad4097cce149.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.d1f2d6a7b133e31390e4fd0b98b4074b.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.d1f2d6a7b133e31390e4fd0b98b4074b.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.d30c0dffc68803c24f74a1f18af9814e.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.d30c0dffc68803c24f74a1f18af9814e.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.dbf5f636d4d4836b86e74d07d6cbd4e2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.dbf5f636d4d4836b86e74d07d6cbd4e2.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.e47e33f4e73a36a272c7b5e8f8598cb6.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.e47e33f4e73a36a272c7b5e8f8598cb6.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.e6c0516c921a49de4a2fbaa889b3c376.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.e6c0516c921a49de4a2fbaa889b3c376.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.eb8ae63c83fc1ca922d9c00531c29499.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.eb8ae63c83fc1ca922d9c00531c29499.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.eedebfe77a9f50e795c4102470ebb2f9.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.eedebfe77a9f50e795c4102470ebb2f9.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.003707f173eeae5d9645.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.003707f173eeae5d9645.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.009eb454a034717938c2.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/AnswerApp/static/js/app.009eb454a034717938c2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.009eb454a034717938c2.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/target/AnswerApp/static/js/app.009eb454a034717938c2.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.01ea4307d57fc62a44ae.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.01ea4307d57fc62a44ae.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.02f6c8a4a90a4f02956c.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.02f6c8a4a90a4f02956c.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.0915800df2d2caf3bd1f.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.0915800df2d2caf3bd1f.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.0cac279591017fa111ab.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.0cac279591017fa111ab.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.0ce38b96ba72bf0073f9.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.0ce38b96ba72bf0073f9.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.0dc1288655e3a4960691.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.0dc1288655e3a4960691.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.12dfcc09966f4cc51f96.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.12dfcc09966f4cc51f96.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.1f00d12372850cc1496e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.1f00d12372850cc1496e.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.21db25a19de5042525ae.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.21db25a19de5042525ae.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.21db51e918d3b2f8c272.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.21db51e918d3b2f8c272.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.25461c074b27039da861.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.25461c074b27039da861.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.2b8b5063409c4781d0db.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.2b8b5063409c4781d0db.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.3971bb34250902c549f3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.3971bb34250902c549f3.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.39cac679fbbfaeee86ad.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.39cac679fbbfaeee86ad.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.3c02312ed21c5de0bb32.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.3c02312ed21c5de0bb32.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.488fdf123ce849fe0ccf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.488fdf123ce849fe0ccf.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.52a605e5da131dd6b9c5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.52a605e5da131dd6b9c5.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.5340dc5ffc6e45defa54.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.5340dc5ffc6e45defa54.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.541d0ce866e4e5218cf2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.541d0ce866e4e5218cf2.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.591fff73b6dd3aca1c83.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.591fff73b6dd3aca1c83.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.59c962b90c8b1f744a97.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.59c962b90c8b1f744a97.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.5adc854248128ade8467.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.5adc854248128ade8467.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.5b2b5b206216ed86fc5f.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.5b2b5b206216ed86fc5f.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.5ba40bcafec71fb6cca1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.5ba40bcafec71fb6cca1.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.5cb0de984a5f21f00909.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.5cb0de984a5f21f00909.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.5d54e5905d7812d62dab.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.5d54e5905d7812d62dab.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.5f780a1cdc0eb6c98f97.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.5f780a1cdc0eb6c98f97.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.65472647ab7f6e2d820a.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.65472647ab7f6e2d820a.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.67392cf1c0b24f0dfdd5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.67392cf1c0b24f0dfdd5.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.6892ffa5d4e04dc9e449.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.6892ffa5d4e04dc9e449.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.6a1f2b3096c341c361da.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.6a1f2b3096c341c361da.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.6c382831c0fc0a1509f8.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.6c382831c0fc0a1509f8.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.76e6c6e5994357b2a65e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.76e6c6e5994357b2a65e.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.789d0440a7e21fc99fce.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.789d0440a7e21fc99fce.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.7a63623adadf4d8628bd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.7a63623adadf4d8628bd.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.7d4abcb8b5896af61713.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.7d4abcb8b5896af61713.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.8621d823b68ccdf5c12e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.8621d823b68ccdf5c12e.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.895ea0627b74b0d587f2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.895ea0627b74b0d587f2.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.903d8109975df35fe642.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.903d8109975df35fe642.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.922922657ee05b80ab89.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.922922657ee05b80ab89.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.9e50f54f2c20ae1425e6.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.9e50f54f2c20ae1425e6.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.9fe26ab696a2c0cba964.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.9fe26ab696a2c0cba964.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.a487c5d52573cbb89e15.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.a487c5d52573cbb89e15.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.a744612faf3beca57595.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.a744612faf3beca57595.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.abc7ec18b4ce242cc777.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.abc7ec18b4ce242cc777.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.ac2b9e8cd697d9f51570.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.ac2b9e8cd697d9f51570.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.ad1232cd55663294fd10.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.ad1232cd55663294fd10.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.b120f5a9738c1882e970.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/AnswerApp/static/js/app.b120f5a9738c1882e970.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.b120f5a9738c1882e970.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/target/AnswerApp/static/js/app.b120f5a9738c1882e970.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.b3e34966c29888e7700e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.b3e34966c29888e7700e.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.b8f706d71caf07728706.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/AnswerApp/static/js/app.b8f706d71caf07728706.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.b8f706d71caf07728706.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/target/AnswerApp/static/js/app.b8f706d71caf07728706.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.bbb891b6f5f8ca6aa594.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.bbb891b6f5f8ca6aa594.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.bf9d0a3dff90bb19219e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.bf9d0a3dff90bb19219e.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.c0a51f0e558996fa2f71.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.c0a51f0e558996fa2f71.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.c513f7c791f0c5fc5ef9.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.c513f7c791f0c5fc5ef9.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.d6f92d338dbc8940fd12.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.d6f92d338dbc8940fd12.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.d8719610e2b0cbb1d993.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.d8719610e2b0cbb1d993.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.d9ef4b4704aca5fedb73.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.d9ef4b4704aca5fedb73.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.dd767cdb087d7c8b6e7c.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.dd767cdb087d7c8b6e7c.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.e0f5f28074237fa10575.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.e0f5f28074237fa10575.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.eca322b6dd1d90c2de34.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.eca322b6dd1d90c2de34.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.f02c2b005a561d84dd05.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.f02c2b005a561d84dd05.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.f0b875bdab36b4a2864b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.f0b875bdab36b4a2864b.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.f0c140150f80cd1712e2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.f0c140150f80cd1712e2.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.f4f79ca92e58a282a0e3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.f4f79ca92e58a282a0e3.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.f88380cd44c02fd994f8.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.f88380cd44c02fd994f8.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.ffa241238713d155dec1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.ffa241238713d155dec1.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/teacherMobile/js/title-management-correct.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/teacherMobile/js/title-management-correct.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/title-management-addChoose.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/title-management-addChoose.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/title-management-addJudge.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/title-management-addJudge.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/title-management-correct-detailed.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/title-management-correct-detailed.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/title-management-correct-more.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/title-management-correct-more.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/title-management-correct.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/title-management-correct.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/title-management-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/title-management-list.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AnswerApp/WEB-INF/classes/ApplicationConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/AnswerApp/WEB-INF/classes/ApplicationConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AnswerApp/WEB-INF/classes/WebMvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/AnswerApp/WEB-INF/classes/WebMvcConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AnswerApp/WEB-INF/classes/com/bluemsun/answerapp/controller/LoginReginsterHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/AnswerApp/WEB-INF/classes/com/bluemsun/answerapp/controller/LoginReginsterHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AnswerApp/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/AnswerApp/error.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AnswerApp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/AnswerApp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AnswerApp/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/target/AnswerApp/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AnswerApp/teacherMobile/js/title-management-correct.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/AnswerApp/teacherMobile/js/title-management-correct.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AnswerApp/teacherQuesManger/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/AnswerApp/teacherQuesManger/js/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AnswerApp/teacherQuesManger/js/title-management-addChoose.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/AnswerApp/teacherQuesManger/js/title-management-addChoose.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AnswerApp/teacherQuesManger/js/title-management-addJudge.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/AnswerApp/teacherQuesManger/js/title-management-addJudge.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AnswerApp/teacherQuesManger/js/title-management-correct-detailed.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/AnswerApp/teacherQuesManger/js/title-management-correct-detailed.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AnswerApp/teacherQuesManger/js/title-management-correct-more.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/AnswerApp/teacherQuesManger/js/title-management-correct-more.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AnswerApp/teacherQuesManger/js/title-management-correct.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/AnswerApp/teacherQuesManger/js/title-management-correct.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AnswerApp/teacherQuesManger/js/title-management-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/AnswerApp/teacherQuesManger/js/title-management-list.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ApplicationConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ApplicationConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WebMvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WebMvcConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bluemsun/answerapp/controller/LoginReginsterHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bluemsun/answerapp/controller/LoginReginsterHandler.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -422,7 +110,8 @@
     <session id="1649733378">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="13" />
+          <entry key="project.open.time.103" value="1" />
           <entry key="project.open.time.107" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.24" value="1" />
@@ -431,17 +120,18 @@
           <entry key="project.open.time.49" value="1" />
           <entry key="project.open.time.65" value="1" />
           <entry key="project.open.time.7" value="2" />
-          <entry key="project.open.time.9" value="1" />
+          <entry key="project.open.time.9" value="2" />
           <entry key="project.open.time.91" value="1" />
           <entry key="project.open.time.94" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="class" value="2" />
           <entry key="css" value="1" />
           <entry key="html" value="12" />
-          <entry key="java" value="23" />
+          <entry key="java" value="26" />
           <entry key="js" value="41" />
           <entry key="txt" value="1" />
           <entry key="xml" value="2" />
@@ -449,9 +139,10 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CLASS" value="2" />
           <entry key="CSS" value="1" />
           <entry key="HTML" value="12" />
-          <entry key="JAVA" value="23" />
+          <entry key="JAVA" value="26" />
           <entry key="JavaScript" value="41" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="2" />
@@ -460,21 +151,53 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="73" />
-          <entry key="java" value="949" />
+          <entry key="java" value="1007" />
           <entry key="xml" value="143" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="73" />
-          <entry key="JAVA" value="949" />
+          <entry key="JAVA" value="1007" />
           <entry key="XML" value="143" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/springConfig/Interceptor/SingleLoginInterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/springConfig/WebMvcConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="385">
+              <caret line="48" column="21" lean-forward="true" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bluemsun/answerapp/controller/LoginReginsterHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+              <folding>
+                <element signature="e#1899#1915#0" expanded="true" />
+                <element signature="e#2097#2113#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -539,8 +262,8 @@
         <option value="$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/title-management-correct-more.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/title-management-list.js" />
         <option value="$PROJECT_DIR$/src/main/springConfig/ApplicationConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/springConfig/Interceptor/SingleLoginInterceptor.java" />
         <option value="$PROJECT_DIR$/src/main/springConfig/WebMvcConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/springConfig/Interceptor/SingleLoginInterceptor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bluemsun/answerapp/controller/LoginReginsterHandler.java" />
       </list>
     </option>
@@ -601,6 +324,56 @@
               <item name="AnswerApp" type="b2602c69:ProjectViewProjectNode" />
               <item name="AnswerApp" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="AnswerApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AnswerApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AnswerApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AnswerApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AnswerApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AnswerApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AnswerApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AnswerApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="answerapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AnswerApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AnswerApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="answerapp" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AnswerApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AnswerApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="springConfig" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AnswerApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AnswerApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="springConfig" type="462c0819:PsiDirectoryNode" />
+              <item name="Interceptor" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -613,7 +386,7 @@
     <property name="SearchEverywhereHistoryKey" value="set b&#9;ACTION&#9;Images.SetBackgroundImage&#10;set back&#9;PSI&#9;JAVA://java.awt.Component#setBackground" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552998086064" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553000149835" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -988,12 +761,14 @@
       <workItem from="1544773031805" duration="2346000" />
       <workItem from="1544784764701" duration="454000" />
       <workItem from="1545306546748" duration="36000" />
-      <workItem from="1552994467974" duration="2874000" />
+      <workItem from="1552994467974" duration="4585000" />
+      <workItem from="1553214578085" duration="104000" />
+      <workItem from="1553596250352" duration="6234000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="192542000" />
+    <option name="totallyTimeSpent" value="200591000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1007,8 +782,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
-      <window_info id="Alibaba Cloud Explorer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2746114" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.04468912" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1017,29 +791,30 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Nl-Palette" order="7" />
       <window_info id="Web" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Alibaba Cloud View" />
+      <window_info id="Alibaba Cloud Explorer" order="9" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.48550725" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37971014" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289855" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3286517" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.8043478" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.14057972" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32753623" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3286517" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Alibaba Cloud View" order="15" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Properties" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" weight="0.3283679" />
+      <window_info anchor="right" id="Maven Projects" order="6" visible="true" weight="0.02007772" />
       <window_info anchor="right" id="Database" order="7" weight="0.35824743" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
@@ -1056,7 +831,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/pc-teacher/title-management/title-management-correct-detailed.js" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/pc-teacher/title-management/title-management-detailed-list.js" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/tool/wangEditor.min.js" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/teacherQuesManger/js/pc-teacher/title-management/title-management-list.js" />
@@ -1326,23 +1100,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/springConfig/WebMvcConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/springConfig/Interceptor/SingleLoginInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="24" column="50" lean-forward="true" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Resources/记录.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
@@ -1357,10 +1114,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar!/javax/servlet/http/HttpServletRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bluemsun/answerapp/controller/LoginReginsterHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="30" column="18" lean-forward="true" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+        <state relative-caret-position="153">
+          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+          <folding>
+            <element signature="e#1899#1915#0" expanded="true" />
+            <element signature="e#2097#2113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/springConfig/WebMvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="48" column="21" lean-forward="true" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/springConfig/Interceptor/SingleLoginInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
         </state>
       </provider>
     </entry>

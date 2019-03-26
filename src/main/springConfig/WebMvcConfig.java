@@ -39,7 +39,7 @@ public class WebMvcConfig extends WebMvcConfigurerAdapter{
     @Override
     public void addCorsMappings(CorsRegistry registry){
         registry.addMapping("/**")
-                .allowedOrigins("http://47.93.197.5", "null")
+                .allowedOrigins("http://188.131.204.169", "null")
                 .allowedMethods("POST", "GET", "PUT", "OPTIONS", "DELETE")
                 .maxAge(3600)
                 .allowCredentials(true);
@@ -48,6 +48,7 @@ public class WebMvcConfig extends WebMvcConfigurerAdapter{
     public void addInterceptors(InterceptorRegistry registry) {
         InterceptorRegistration addInterceptor = registry.addInterceptor(new SingleLoginInterceptor());
         addInterceptor.addPathPatterns("/loginReginster/login","/loginReginster/teacher/login");
+
         super.addInterceptors(registry);
 
     }
